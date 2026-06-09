@@ -1,0 +1,2148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Vitamin Sea Mondello — premium guest guidebook. Effortless seaside stay in Sicily.">
+  <title>Vitamin Sea · Mondello | Modern Guest Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="sticky-nav">
+  <div class="nav-container">
+    <div class="nav-logo"><i class="fas fa-water"></i> Vitamin Sea</div>
+    <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+    <div class="nav-controls">
+      <div class="lang-switcher">
+       <button class="lang-btn active" data-lang="en">🇬🇧 EN</button>
+        <button class="lang-btn" data-lang="it">🇮🇹 IT</button>
+        <button class="lang-btn" data-lang="de">🇩🇪 DE</button>
+        <button class="lang-btn" data-lang="fr">🇫🇷 FR</button>
+        <button class="lang-btn" data-lang="sk">🇸🇰 SK</button>
+      </div>
+      <div class="theme-toggle" id="themeToggle"><i class="fas fa-sun"></i> <span>Light</span></div>
+    </div>
+  <div class="nav-links" id="navLinks">
+  <!-- Welcome -->
+  <a href="#welcome" class="nav-link">
+    <span class="nav-emoji">🌊</span>
+    <span class="lang-content active" data-lang="en">Welcome</span>
+    <span class="lang-content" data-lang="it">Benvenuto</span>
+    <span class="lang-content" data-lang="de">Willkommen</span>
+    <span class="lang-content" data-lang="fr">Bienvenue</span>
+    <span class="lang-content" data-lang="sk">Vitajte</span>
+  </a>
+  <!-- Info -->
+  <a href="#essentials" class="nav-link">
+    <span class="nav-emoji">ℹ️</span>
+    <span class="lang-content active" data-lang="en">Info</span>
+    <span class="lang-content" data-lang="it">Info</span>
+    <span class="lang-content" data-lang="de">Info</span>
+    <span class="lang-content" data-lang="fr">Infos</span>
+    <span class="lang-content" data-lang="sk">Info</span>
+  </a>
+  <!-- Water -->
+  <a href="#water" class="nav-link">
+    <span class="nav-emoji">💧</span>
+    <span class="lang-content active" data-lang="en">Water</span>
+    <span class="lang-content" data-lang="it">Acqua</span>
+    <span class="lang-content" data-lang="de">Wasser</span>
+    <span class="lang-content" data-lang="fr">Eau</span>
+    <span class="lang-content" data-lang="sk">Voda</span>
+  </a>
+  <!-- Power -->
+  <a href="#power" class="nav-link">
+    <span class="nav-emoji">⚡</span>
+    <span class="lang-content active" data-lang="en">Power</span>
+    <span class="lang-content" data-lang="it">Elettricità</span>
+    <span class="lang-content" data-lang="de">Strom</span>
+    <span class="lang-content" data-lang="fr">Électricité</span>
+    <span class="lang-content" data-lang="sk">Elektrina</span>
+  </a>
+  <!-- Key -->
+  <a href="#checkin" class="nav-link">
+    <span class="nav-emoji">🔑</span>
+    <span class="lang-content active" data-lang="en">Key</span>
+    <span class="lang-content" data-lang="it">Chiave</span>
+    <span class="lang-content" data-lang="de">Schlüssel</span>
+    <span class="lang-content" data-lang="fr">Clé</span>
+    <span class="lang-content" data-lang="sk">Kľúč</span>
+  </a>
+  <!-- Find -->
+  <a href="#find" class="nav-link">
+    <span class="nav-emoji">📍</span>
+    <span class="lang-content active" data-lang="en">Find</span>
+    <span class="lang-content" data-lang="it">Trova</span>
+    <span class="lang-content" data-lang="de">Finden</span>
+    <span class="lang-content" data-lang="fr">Trouver</span>
+    <span class="lang-content" data-lang="sk">Nájsť</span>
+  </a>
+  <!-- Waste -->
+  <a href="#recycling" class="nav-link">
+    <span class="nav-emoji">♻️</span>
+    <span class="lang-content active" data-lang="en">Waste</span>
+    <span class="lang-content" data-lang="it">Rifiuti</span>
+    <span class="lang-content" data-lang="de">Abfall</span>
+    <span class="lang-content" data-lang="fr">Déchets</span>
+    <span class="lang-content" data-lang="sk">Odpad</span>
+  </a>
+  <!-- Rules -->
+  <a href="#rules" class="nav-link">
+    <span class="nav-emoji">📜</span>
+    <span class="lang-content active" data-lang="en">Rules</span>
+    <span class="lang-content" data-lang="it">Regole</span>
+    <span class="lang-content" data-lang="de">Regeln</span>
+    <span class="lang-content" data-lang="fr">Règles</span>
+    <span class="lang-content" data-lang="sk">Pravidlá</span>
+  </a>
+  <!-- Check-out -->
+  <a href="#checkout" class="nav-link">
+    <span class="nav-emoji">⏰</span>
+    <span class="lang-content active" data-lang="en">Check-out</span>
+    <span class="lang-content" data-lang="it">Partenza</span>
+    <span class="lang-content" data-lang="de">Abreise</span>
+    <span class="lang-content" data-lang="fr">Départ</span>
+    <span class="lang-content" data-lang="sk">Odchod</span>
+  </a>
+  <!-- Safety -->
+  <a href="#safety" class="nav-link">
+    <span class="nav-emoji">🛡️</span>
+    <span class="lang-content active" data-lang="en">Safety</span>
+    <span class="lang-content" data-lang="it">Sicurezza</span>
+    <span class="lang-content" data-lang="de">Sicherheit</span>
+    <span class="lang-content" data-lang="fr">Sécurité</span>
+    <span class="lang-content" data-lang="sk">Bezpečnosť</span>
+  </a>
+</div>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="hero-content">
+    <!-- Logo -->
+    <img src="logo.jpg" alt="Mondello Beach Vitamin Sea Logo" class="hero-logo">
+    
+    <!-- Location badge -->
+    <div class="hero-badge">
+      <i class="fas fa-map-marker-alt"></i> Mondello · Palermo · Sicily
+    </div>
+    
+    <!-- Main title with multilingual Guest Guide -->
+    <h1>
+      Mondello Beach Vitamin Sea
+      <span class="lang-content active" data-lang="en">Guest Guide</span>
+      <span class="lang-content" data-lang="it">Guida per gli Ospiti</span>
+      <span class="lang-content" data-lang="de">Gästehandbuch</span>
+      <span class="lang-content" data-lang="fr">Guide des Invités</span>
+      <span class="lang-content" data-lang="sk">Sprievodca pre hostí</span>
+    </h1>
+    
+    <!-- Tagline – multilingual -->
+    <div class="hero-tagline lang-content active" data-lang="en">🌊 let the sea hug your soul, daily.</div>
+    <div class="hero-tagline lang-content" data-lang="it">🌊 Lascia che il mare abbracci la tua anima, ogni giorno.</div>
+    <div class="hero-tagline lang-content" data-lang="de">🌊 Lass das Meer deine Seele täglich umarmen.</div>
+    <div class="hero-tagline lang-content" data-lang="fr">🌊 Laisse la mer étreindre ton âme, chaque jour.</div>
+    <div class="hero-tagline lang-content" data-lang="sk">🌊 Nech more objíme tvoju dušu každý deň.</div>
+  </div>
+  
+  <!-- Decorative wave at the bottom of the cover (creates a smooth transition) -->
+  <div class="hero-wave">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path fill="var(--bg-page)" d="M0,60 C240,40 480,10 720,20 C960,30 1200,50 1440,20 L1440,60 L0,60 Z"></path>
+    </svg>
+  </div>
+</section>
+
+<main class="container">
+
+
+
+
+<!-- WELCOME CHAPTER (restructured: short greeting inside highlight, Sicilian note outside) -->
+<div class="chapter-card" id="welcome">
+  <div class="chapter-header">
+    <div class="chapter-icon">🌊</div>
+    <div class="chapter-title lang-content active" data-lang="en">Welcome to Mondello Beach Vitamin Sea Apartment</div>
+    <div class="chapter-title lang-content" data-lang="it">Benvenuti nell'appartamento Mondello Beach Vitamin Sea</div>
+    <div class="chapter-title lang-content" data-lang="de">Willkommen in der Mondello Beach Vitamin Sea Wohnung</div>
+    <div class="chapter-title lang-content" data-lang="fr">Bienvenue dans l'appartement Mondello Beach Vitamin Sea</div>
+    <div class="chapter-title lang-content" data-lang="sk">Vitajte v apartmáne Mondello Beach Vitamin Sea</div>
+  </div>
+  <div class="chapter-body">
+    
+
+    <!-- 🌟 OUTSTANDING WELCOME MESSAGE (now includes the short greeting as first paragraph) -->
+    <div class="welcome-highlight">
+      <div class="lang-content active" data-lang="en">
+        <p>Dear Guest, we are delighted to host you. We hope your stay will be relaxing and filled with unforgettable moments.</p>
+        <p>Mondello is one of the most charming seaside areas of Palermo, famous for its crystal‑clear waters, white sandy beach, and stunning sunsets. Whether you're here to unwind by the sea, explore Palermo’s rich history, or enjoy the delicious Sicilian cuisine, we hope our home will be the perfect base for your stay.</p>
+        <p>Please make yourself at home and enjoy all the amenities provided. If you need anything or have any questions during your stay, don’t hesitate to contact us — we’re happy to help!</p>
+        <p><strong>💛 Thank You for Choosing Our Home</strong><br>We truly appreciate you selecting our home for your time in Palermo, and we are grateful for your trust. We’ve prepared everything with care to make your stay comfortable and relaxing. It means a lot to us that you are here, and we hope you create wonderful memories during your visit. We wish you a wonderful holiday in Sicily and a fantastic stay in Mondello.</p>
+      </div>
+      <div class="lang-content" data-lang="it">
+        <p>Caro Ospite, siamo davvero lieti di ospitarti. Speriamo che il tuo soggiorno sia rilassante e pieno di momenti indimenticabili.</p>
+        <p>Mondello è una delle zone balneari più affascinanti di Palermo, famosa per le sue acque cristalline, la spiaggia di sabbia bianca e i tramonti mozzafiato. Che tu sia qui per rilassarti in riva al mare, esplorare la ricca storia di Palermo o gustare la deliziosa cucina siciliana, speriamo che la nostra casa sia la base perfetta per il tuo soggiorno.</p>
+        <p>Sentiti come a casa tua e goditi tutti i servizi forniti. Se hai bisogno di qualcosa o hai domande durante il tuo soggiorno, non esitare a contattarci — siamo felici di aiutarti!</p>
+        <p><strong>💛 Grazie per aver scelto la nostra casa</strong><br>Apprezziamo davvero che tu abbia scelto la nostra casa per il tuo soggiorno a Palermo, e siamo grati per la tua fiducia. Abbiamo preparato tutto con cura per rendere il tuo soggiorno confortevole e rilassante. Significa molto per noi che tu sia qui, e speriamo che tu possa creare ricordi meravigliosi durante la tua visita. Ti auguriamo una splendida vacanza in Sicilia e un soggiorno fantastico a Mondello.</p>
+      </div>
+      <div class="lang-content" data-lang="de">
+        <p>Lieber Gast, wir freuen uns sehr, Sie bei uns begrüßen zu dürfen. Wir hoffen, dass Ihr Aufenthalt entspannend und voller unvergesslicher Momente sein wird.</p>
+        <p>Mondello ist eines der charmantesten Küstengebiete Palermos, bekannt für sein kristallklares Wasser, den weißen Sandstrand und atemberaubende Sonnenuntergänge. Ob Sie hier sind, um sich am Meer zu entspannen, Palermos reiche Geschichte zu erkunden oder die köstliche sizilianische Küche zu genießen – wir hoffen, dass unser Zuhause der perfekte Ausgangspunkt für Ihren Aufenthalt ist.</p>
+        <p>Fühlen Sie sich wie zu Hause und genießen Sie alle Annehmlichkeiten. Wenn Sie während Ihres Aufenthalts etwas brauchen oder Fragen haben, zögern Sie nicht, uns zu kontaktieren – wir helfen gerne!</p>
+        <p><strong>💛 Vielen Dank, dass Sie unser Zuhause gewählt haben</strong><br>Wir wissen es sehr zu schätzen, dass Sie unser Zuhause für Ihre Zeit in Palermo ausgewählt haben, und sind dankbar für Ihr Vertrauen. Wir haben alles mit Sorgfalt vorbereitet, um Ihren Aufenthalt angenehm und entspannend zu gestalten. Es bedeutet uns viel, dass Sie hier sind, und wir hoffen, dass Sie wunderbare Erinnerungen schaffen. Wir wünschen Ihnen einen schönen Urlaub auf Sizilien und einen fantastischen Aufenthalt in Mondello.</p>
+      </div>
+      <div class="lang-content" data-lang="fr">
+        <p>Cher client, nous sommes ravis de vous accueillir. Nous espérons que votre séjour sera relaxant et rempli de moments inoubliables.</p>
+        <p>Mondello est l’un des quartiers balnéaires les plus charmants de Palerme, célèbre pour ses eaux cristallines, sa plage de sable blanc et ses couchers de soleil à couper le souffle. Que vous soyez ici pour vous détendre au bord de la mer, explorer la riche histoire de Palerme ou déguster la délicieuse cuisine sicilienne, nous espérons que notre maison sera la base idéale pour votre séjour.</p>
+        <p>Faites comme chez vous et profitez de toutes les commodités mises à disposition. Si vous avez besoin de quoi que ce soit ou si vous avez des questions pendant votre séjour, n’hésitez pas à nous contacter – nous sommes heureux de vous aider !</p>
+        <p><strong>💛 Merci d’avoir choisi notre maison</strong><br>Nous vous sommes très reconnaissants d’avoir choisi notre maison pour votre séjour à Palerme, et nous vous remercions pour votre confiance. Nous avons tout préparé avec soin pour rendre votre séjour confortable et relaxant. Votre présence compte beaucoup pour nous, et nous espérons que vous créerez de merveilleux souvenirs. Nous vous souhaitons de merveilleuses vacances en Sicile et un séjour fantastique à Mondello.</p>
+      </div>
+      <div class="lang-content" data-lang="sk">
+        <p>Milý hosť, sme radi, že vás môžeme hostiť. Dúfame, že váš pobyt bude relaxačný a plný nezabudnuteľných chvíľ.</p>
+        <p>Mondello je jednou z najpôvabnejších prímorských oblastí Palerma, známej svojou krištáľovo čistou vodou, bielou piesočnatou plážou a nádhernými západmi slnka. Či už ste tu, aby ste si oddýchli pri mori, objavovali bohatú históriu Palerma alebo si vychutnali vynikajúcu sicílsku kuchyňu, veríme, že náš domov bude perfektným základom pre váš pobyt.</p>
+        <p>Cíťte sa ako doma a využite všetky poskytnuté vybavenie. Ak počas pobytu niečo potrebujete alebo máte akékoľvek otázky, neváhajte nás kontaktovať – radi vám pomôžeme!</p>
+        <p><strong>💛 Ďakujeme, že ste si vybrali náš domov</strong><br>Skutočne si vážime, že ste si vybrali náš domov na vašu návštevu Palerma, a sme vďační za vašu dôveru. Všetko sme starostlivo pripravili, aby bol váš pobyt pohodlný a relaxačný. Znamená to pre nás veľa, že ste tu, a dúfame, že si vytvoríte nádherné spomienky. Prajeme vám úžasnú dovolenku na Sicílii a fantastický pobyt v Mondelle.</p>
+      </div>
+    </div>
+     <!-- Sicilian note (outside the highlight) -->
+    <div class="lang-content active" data-lang="en">
+      <div class="alert-modern alert-info"><i class="fas fa-info-circle" style="font-size:1.5rem;"></i><div>Sicily knows how to slow you down. Let the sea air and the rhythm of island life wash over you. 🌊</div></div>
+    </div>
+    <div class="lang-content" data-lang="it">
+      <div class="alert-modern alert-info"><i class="fas fa-info-circle" style="font-size:1.5rem;"></i><div>La Sicilia sa come farti rallentare. Lasciati avvolgere dall'aria di mare e dal ritmo della vita isolana. 🌊</div></div>
+    </div>
+    <div class="lang-content" data-lang="de">
+      <div class="alert-modern alert-info"><i class="fas fa-info-circle" style="font-size:1.5rem;"></i><div>Sizilien weiß, wie man Sie herunterfahren lässt. Lassen Sie die Meeresluft und den Rhythmus des Insellebens auf sich wirken. 🌊</div></div>
+    </div>
+    <div class="lang-content" data-lang="fr">
+      <div class="alert-modern alert-info"><i class="fas fa-info-circle" style="font-size:1.5rem;"></i><div>La Sicile sait vous faire ralentir. Laissez-vous envelopper par l'air marin et le rythme de la vie insulaire. 🌊</div></div>
+    </div>
+    <div class="lang-content" data-lang="sk">
+      <div class="alert-modern alert-info"><i class="fas fa-info-circle" style="font-size:1.5rem;"></i><div>Sicília vie, ako vás spomaliť. Nechajte na seba pôsobiť morský vzduch a rytmus ostrovného života. 🌊</div></div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- ESSENTIALS -->
+<div class="chapter-card" id="essentials">
+  <div class="chapter-header">
+    <div class="chapter-icon">ℹ️</div>
+    <div class="chapter-title lang-content active" data-lang="en">Essential Information</div>
+    <div class="chapter-title lang-content" data-lang="it">Informazioni Essenziali</div>
+    <div class="chapter-title lang-content" data-lang="de">Wichtige Informationen</div>
+    <div class="chapter-title lang-content" data-lang="fr">Informations Essentielles</div>
+    <div class="chapter-title lang-content" data-lang="sk">Dôležité Informácie</div>
+  </div>
+  <div class="chapter-body">
+    <!-- Apartment Address Alert -->
+    <div class="alert-modern alert-warning">
+      <i class="fas fa-map-marker-alt"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">📍 Apartment Address</strong>
+        <strong class="lang-content" data-lang="it">📍 Indirizzo dell'Appartamento</strong>
+        <strong class="lang-content" data-lang="de">📍 Wohnungsadresse</strong>
+        <strong class="lang-content" data-lang="fr">📍 Adresse de l'Appartement</strong>
+        <strong class="lang-content" data-lang="sk">📍 Adresa Apartmánu</strong>
+        <br>Via Carbone 73, Mondello–Partanna, Palermo 90151
+      </div>
+    </div>
+
+    <!-- Wi-Fi Alert -->
+    <div class="alert-modern alert-success">
+      <i class="fas fa-wifi"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">📶 Wi-Fi Network</strong>
+        <strong class="lang-content" data-lang="it">📶 Rete Wi-Fi</strong>
+        <strong class="lang-content" data-lang="de">📶 Wi-Fi Netzwerk</strong>
+        <strong class="lang-content" data-lang="fr">📶 Réseau Wi-Fi</strong>
+        <strong class="lang-content" data-lang="sk">📶 Wi-Fi Sieť</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Network name and password are displayed on the inside of the main entrance door.</span>
+        <span class="lang-content" data-lang="it">Il nome della rete e la password sono visualizzati all'interno della porta d'ingresso principale.</span>
+        <span class="lang-content" data-lang="de">Netzwerkname und Passwort befinden sich auf der Innenseite der Haustür.</span>
+        <span class="lang-content" data-lang="fr">Le nom du réseau et le mot de passe sont affichés à l'intérieur de la porte d'entrée principale.</span>
+        <span class="lang-content" data-lang="sk">Názov siete a heslo sú uvedené na vnútornej strane hlavných vchodových dverí.</span>
+      </div>
+    </div>
+
+    <!-- Two cards: Public Transport & Parking -->
+    <div class="grid-2">
+      <!-- Public Transport Card -->
+    <!-- Public Transport Card (updated with badge) -->
+<div class="info-card">
+  <i class="fas fa-bus"></i>
+  <h3 class="lang-content active" data-lang="en">Public Transport</h3>
+  <h3 class="lang-content" data-lang="it">Trasporti Pubblici</h3>
+  <h3 class="lang-content" data-lang="de">Öffentliche Verkehrsmittel</h3>
+  <h3 class="lang-content" data-lang="fr">Transports Publics</h3>
+  <h3 class="lang-content" data-lang="sk">Verejná Doprava</h3>
+  
+  <p>
+   <span class="lang-content active" data-lang="en">🎫 Bus tickets at <strong>Al Piccolo bar</strong> (next door) or any tobacco shops. Single ticket valid 90 min.</span>
+
+<span class="lang-content" data-lang="it">🎫 Biglietti dell'autobus al <strong>Al Piccolo bar</strong> (accanto) o in qualsiasi tabaccheria. Biglietto singolo valido 90 min.</span>
+
+<span class="lang-content" data-lang="de">🎫 Busfahrkarten in der <strong>Al Piccolo Bar</strong> (nebenan) oder in jedem Tabakladen. Einzelfahrschein gültig 90 min.</span>
+
+<span class="lang-content" data-lang="fr">🎫 Billets de bus au <strong>Al Piccolo bar</strong> (à côté) ou dans n'importe quel bureau de tabac. Ticket valable 90 min.</span>
+
+<span class="lang-content" data-lang="sk">🎫 Lístky na autobus v bare <strong>Al Piccolo</strong> (vedľa) alebo v akejkoľvek trafike. Jednotný lístok platí 90 min.</span>
+  </p>
+  
+  <!-- Badge (multilingual) -->
+  <div class="badge-sm">
+    <i class="fas fa-mobile-alt"></i>
+    <span class="lang-content active" data-lang="en">Moovit app recommended</span>
+    <span class="lang-content" data-lang="it">App Moovit consigliata</span>
+    <span class="lang-content" data-lang="de">Moovit App empfohlen</span>
+    <span class="lang-content" data-lang="fr">Application Moovit recommandée</span>
+    <span class="lang-content" data-lang="sk">Aplikácia Moovit odporúčaná</span>
+  </div>
+</div>
+<!-- Parking Card -->
+<div class="info-card">
+  <i class="fas fa-parking"></i>
+  <h3 class="lang-content active" data-lang="en">Parking</h3>
+  <h3 class="lang-content" data-lang="it">Parcheggio</h3>
+  <h3 class="lang-content" data-lang="de">Parken</h3>
+  <h3 class="lang-content" data-lang="fr">Stationnement</h3>
+  <h3 class="lang-content" data-lang="sk">Parkovanie</h3>
+  
+<!-- English (active) -->
+<div class="lang-content active" data-lang="en">
+  ⚪ White lines = free<br>
+  🔵 Blue lines = paid<br>
+  🟡 Yellow lines = reserved (avoid)
+</div>
+
+<!-- Italian -->
+<div class="lang-content" data-lang="it">
+  ⚪ Strisce bianche = gratuito<br>
+  🔵 Strisce blu = a pagamento<br>
+  🟡 Strisce gialle = riservato (evitare)
+</div>
+
+<!-- German -->
+<div class="lang-content" data-lang="de">
+  ⚪ Weiße Linien = kostenlos<br>
+  🔵 Blaue Linien = gebührenpflichtig<br>
+  🟡 Gelbe Linien = reserviert (vermeiden)
+</div>
+
+<!-- French -->
+<div class="lang-content" data-lang="fr">
+  ⚪ Lignes blanches = gratuit<br>
+  🔵 Lignes bleues = payant<br>
+  🟡 Lignes jaunes = réservé (à éviter)
+</div>
+
+<!-- Slovak -->
+<div class="lang-content" data-lang="sk">
+  ⚪ Biele čiary = zadarmo<br>
+  🔵 Modré čiary = platené<br>
+  🟡 Žlté čiary = vyhradené (vyhnite sa)
+</div>
+</div>
+    </div>
+    
+      <div class="alert-modern alert-info">
+  <i class="fas fa-info-circle"></i>
+  <div>
+  <span class="lang-content active" data-lang="en">Sicilian summers are beautiful — and the bugs think so too 😊 Please keep the balcony door closed whenever possible. If you need a fresh air in living room, you can close the green shutters as mosquito net is there to protect you.</span>
+
+<span class="lang-content" data-lang="it">Le estati siciliane sono bellissime — e anche gli insetti la pensano così 😊 Tieni la porta del balcone chiusa il più possibile. Se hai bisogno di aria fresca in soggiorno, puoi chiudere le persiane verdi: la zanzariera è lì per proteggerti.</span>
+
+<span class="lang-content" data-lang="de">Die sizilianischen Sommer sind wunderschön – und das denken die Insekten auch 😊 Bitte halten Sie die Balkontür wann immer möglich geschlossen. Wenn Sie frische Luft im Wohnzimmer benötigen, können Sie die grünen Fensterläden schließen – das Moskitonetz ist da, um Sie zu schützen.</span>
+
+<span class="lang-content" data-lang="fr">Les étés siciliens sont magnifiques – et les insectes aussi 😊 Veuillez garder la porte du balcon fermée autant que possible. Si vous avez besoin d'air frais dans le salon, vous pouvez fermer les volets verts – la moustiquaire est là pour vous protéger.</span>
+
+<span class="lang-content" data-lang="sk">Sicílske letá sú nádherné – a rovnako si to myslia aj chrobáky 😊 Balkónové dvere udržiavajte zatvorené vždy, keď je to možné. Ak potrebujete čerstvý vzduch v obývačke, môžete zatvoriť zelené okenice – sieťka proti hmyzu je tu, aby vás chránila.</span>
+  </div>
+  </div>
+  
+
+</div>
+  
+  
+  
+  
+  
+
+
+<!-- WATER TANK CHAPTER (UPDATED) -->
+<div class="chapter-card" id="water">
+  <div class="chapter-header">
+    <div class="chapter-icon">💧</div>
+    <div class="chapter-title lang-content active" data-lang="en">Emergency Water Tank</div>
+    <div class="chapter-title lang-content" data-lang="it">Serbatoio Acqua di Emergenza</div>
+    <div class="chapter-title lang-content" data-lang="de">Notwasserbehälter</div>
+    <div class="chapter-title lang-content" data-lang="fr">Réservoir d'Eau d'Urgence</div>
+    <div class="chapter-title lang-content" data-lang="sk">Núdzová Nádrž na Vodu</div>
+  </div>
+  <div class="chapter-body">
+    <!-- Info Alert -->
+    <div class="alert-modern alert-info">
+      <i class="fas fa-info-circle"></i>
+      <div>
+        <span class="lang-content active" data-lang="en">💧 In Sicily, during the dry winter period — especially after an extremely hot summer — the municipality may suspend water supply from <strong>Monday morning until Tuesday morning</strong>. The apartment is equipped with a <strong>200‑litre emergency water tank</strong>.</span>
+        <span class="lang-content" data-lang="it">💧 In Sicilia, durante il periodo invernale secco — specialmente dopo un'estate molto calda — il comune può sospendere l'acqua dal <strong>lunedì mattina al martedì mattina</strong>. L'appartamento ha un <strong>serbatoio di emergenza da 200 litri</strong>.</span>
+        <span class="lang-content" data-lang="de">💧 In Sizilien kann die Gemeinde in der trockenen Winterzeit — besonders nach einem heißen Sommer — die Wasserversorgung von <strong>Montagmorgen bis Dienstagmorgen</strong> unterbrechen. Die Wohnung hat einen <strong>200‑Liter‑Notwasserbehälter</strong>.</span>
+        <span class="lang-content" data-lang="fr">💧 En Sicile, pendant la période sèche hivernale — surtout après un été très chaud — la municipalité peut couper l'eau du <strong>lundi matin au mardi matin</strong>. L'appartement dispose d'un <strong>réservoir d'eau de secours de 200 litres</strong>.</span>
+        <span class="lang-content" data-lang="sk">💧 Na Sicílii počas suchého zimného obdobia — najmä po veľmi horúcom lete — môže obec prerušiť vodu od <strong>pondelka rána do utorka rána</strong>. Apartmán má <strong>200‑litrovú núdzovú nádrž na vodu</strong>.</span>
+      </div>
+    </div>
+
+    <!-- Subheading -->
+    <h3 class="lang-content active" data-lang="en">🚰 How to Activate the Emergency Water Tank</h3>
+    <h3 class="lang-content" data-lang="it">🚰 Come attivare il serbatoio dell'acqua di emergenza</h3>
+    <h3 class="lang-content" data-lang="de">🚰 So aktivieren Sie den Notwasserbehälter</h3>
+    <h3 class="lang-content" data-lang="fr">🚰 Comment activer le réservoir d'eau d'urgence</h3>
+    <h3 class="lang-content" data-lang="sk">🚰 Ako aktivovať núdzovú nádrž na vodu</h3>
+
+    <div class="step-list">
+      <!-- STEP 1: Close Main Water Supply (detailed) -->
+      <div class="step-row">
+        <div class="step-num">1</div>
+        <div>
+          <strong class="lang-content active" data-lang="en">Close the Main Water Supply</strong>
+          <strong class="lang-content" data-lang="it">Chiudere l'alimentazione principale dell'acqua</strong>
+          <strong class="lang-content" data-lang="de">Hauptwasserzufuhr schließen</strong>
+          <strong class="lang-content" data-lang="fr">Fermer l'alimentation principale en eau</strong>
+          <strong class="lang-content" data-lang="sk">Zatvorte hlavný prívod vody</strong>
+          <ul class="step-details">
+            <li class="lang-content active" data-lang="en">Open the kitchen window.</li>
+            <li class="lang-content" data-lang="it">Apri la finestra della cucina.</li>
+            <li class="lang-content" data-lang="de">Öffnen Sie das Küchenfenster.</li>
+            <li class="lang-content" data-lang="fr">Ouvrez la fenêtre de la cuisine.</li>
+            <li class="lang-content" data-lang="sk">Otvorte kuchynské okno.</li>
+            
+            <li class="lang-content active" data-lang="en">Pull both black handles toward you to unlock the mosquito net.</li>
+            <li class="lang-content" data-lang="it">Tira entrambe le maniglie nere verso di te per sbloccare la zanzariera.</li>
+            <li class="lang-content" data-lang="de">Ziehen Sie beide schwarzen Griffe zu sich heran, um das Moskitonetz zu entriegeln.</li>
+            <li class="lang-content" data-lang="fr">Tirez les deux poignées noires vers vous pour déverrouiller la moustiquaire.</li>
+            <li class="lang-content" data-lang="sk">Potiahnite obe čierne rukoväte smerom k sebe, aby ste odomkli sieťku proti hmyzu.</li>
+            
+            <li class="lang-content active" data-lang="en">Lift the mosquito shutter upwards.</li>
+            <li class="lang-content" data-lang="it">Solleva la zanzariera verso l'alto.</li>
+            <li class="lang-content" data-lang="de">Heben Sie den Moskitoladen nach oben.</li>
+            <li class="lang-content" data-lang="fr">Soulevez le volet moustiquaire vers le haut.</li>
+            <li class="lang-content" data-lang="sk">Zdvihnite roletu proti hmyzu nahor.</li>
+            
+            <li class="lang-content active" data-lang="en">The valve is located below. Turn the handle to the <strong>middle position</strong> to close the main water supply.</li>
+            <li class="lang-content" data-lang="it">La valvola è situata sotto. Gira la maniglia in <strong>posizione centrale</strong> per chiudere l'acqua principale.</li>
+            <li class="lang-content" data-lang="de">Das Ventil befindet sich unten. Drehen Sie den Griff in die <strong>mittlere Position</strong>, um die Hauptwasserzufuhr zu schließen.</li>
+            <li class="lang-content" data-lang="fr">La vanne se trouve en dessous. Tournez la poignée en <strong>position centrale</strong> pour fermer l'alimentation principale.</li>
+            <li class="lang-content" data-lang="sk">Ventil sa nachádza dole. Otočte rukoväť do <strong>strednej polohy</strong>, aby ste zatvorili hlavný prívod vody.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- STEP 2: Access the Tank Controls (ladder, double door) -->
+      <div class="step-row">
+        <div class="step-num">2</div>
+        <div>
+          <strong class="lang-content active" data-lang="en">Access the Tank Controls</strong>
+          <strong class="lang-content" data-lang="it">Accedere ai comandi del serbatoio</strong>
+          <strong class="lang-content" data-lang="de">Zugang zu den Behältersteuerungen</strong>
+          <strong class="lang-content" data-lang="fr">Accéder aux commandes du réservoir</strong>
+          <strong class="lang-content" data-lang="sk">Prístup k ovládaniu nádrže</strong>
+          <ul class="step-details">
+            <li class="lang-content active" data-lang="en">Place the ladder (located in the green hallway double‑door wardrobe) between the fridge and the cooking area in the kitchen.</li>
+            <li class="lang-content" data-lang="it">Posiziona la scala (nell'armadio verde a doppia anta nel corridoio) tra il frigorifero e la zona cottura in cucina.</li>
+            <li class="lang-content" data-lang="de">Stellen Sie die Leiter (im grünen Doppeltürschrank im Flur) zwischen Kühlschrank und Kochbereich in der Küche auf.</li>
+            <li class="lang-content" data-lang="fr">Placez l'échelle (dans l'armoire verte à double porte du couloir) entre le réfrigérateur et la zone de cuisson dans la cuisine.</li>
+            <li class="lang-content" data-lang="sk">Umiestnite rebrík (v zelenej dvojkrídlovej skrini na chodbe) medzi chladničku a varnú zónu v kuchyni.</li>
+            
+            <li class="lang-content active" data-lang="en">You will see a small double door high on the wall. A leaflet explaining how to use the ladder is available in the blue folder under the TV.</li>
+            <li class="lang-content" data-lang="it">Vedrai una piccola doppia porta in alto sulla parete. Un volantino con le istruzioni per la scala è nella cartella blu sotto la TV.</li>
+            <li class="lang-content" data-lang="de">Sie sehen eine kleine Doppeltür hoch an der Wand. Eine Anleitung zur Leiter finden Sie im blauen Ordner unter dem Fernseher.</li>
+            <li class="lang-content" data-lang="fr">Vous verrez une petite double porte en haut du mur. Une notice expliquant comment utiliser l'échelle se trouve dans le dossier bleu sous la télévision.</li>
+            <li class="lang-content" data-lang="sk">Na stene uvidíte malé dvojité dvierka vysoké na stene. Leták s vysvetlením používania rebríka je v modrom priečinku pod TV.</li>
+            
+            <li class="lang-content active" data-lang="en">Open the door to access the tank and switches.</li>
+            <li class="lang-content" data-lang="it">Apri la porta per accedere al serbatoio e agli interruttori.</li>
+            <li class="lang-content" data-lang="de">Öffnen Sie die Tür, um an den Behälter und die Schalter zu gelangen.</li>
+            <li class="lang-content" data-lang="fr">Ouvrez la porte pour accéder au réservoir et aux interrupteurs.</li>
+            <li class="lang-content" data-lang="sk">Otvorte dvierka, aby ste sa dostali k nádrži a spínačom.</li>
+            
+            <li class="lang-content active" data-lang="en">Inside, on the left side of the wall you will see two switches:<br>❶ First switch → Turns the light ON<br>❷ Second switch → Activates the water tank <strong>(do not touch it YET)</strong>.</li>
+            <li class="lang-content" data-lang="it">All'interno, sul lato sinistro della parete, vedrai due interruttori:<br>❶ Primo interruttore → Accende la luce<br>❷ Secondo interruttore → Attiva il serbatoio dell'acqua <strong>(non toccarlo ANCORA)</strong>.</li>
+            <li class="lang-content" data-lang="de">Im Inneren, an der linken Wand, sehen Sie zwei Schalter:<br>❶ Erster Schalter → Schaltet das Licht EIN<br>❷ Zweiter Schalter → Aktiviert den Wassertank <strong>(noch nicht berühren)</strong>.</li>
+            <li class="lang-content" data-lang="fr">À l'intérieur, sur le côté gauche du mur, vous verrez deux interrupteurs :<br>❶ Premier interrupteur → Allume la lumière<br>❷ Deuxième interrupteur → Active le réservoir d'eau <strong>(ne le touchez pas ENCORE)</strong>.</li>
+            <li class="lang-content" data-lang="sk">Vnútri na ľavej stene uvidíte dva spínače:<br>❶ Prvý spínač → Zapne svetlo<br>❷ Druhý spínač → Aktivuje vodnú nádrž <strong>(ZATIAľ sa ho nedotýkajte)</strong>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- STEP 3: Adjust the Tank Tap (black tap to the right) -->
+      <div class="step-row">
+        <div class="step-num">3</div>
+        <div>
+          <strong class="lang-content active" data-lang="en">Adjust the Tank Tap</strong>
+          <strong class="lang-content" data-lang="it">Regolare il rubinetto del serbatoio</strong>
+          <strong class="lang-content" data-lang="de">Den Tankhahn einstellen</strong>
+          <strong class="lang-content" data-lang="fr">Régler le robinet du réservoir</strong>
+          <strong class="lang-content" data-lang="sk">Nastavte ventil nádrže</strong>
+          <ul class="step-details">
+            <li class="lang-content active" data-lang="en">On the right side of the tank, you will find two taps: one <strong>red</strong> and one <strong>black</strong>.</li>
+            <li class="lang-content" data-lang="it">Sul lato destro del serbatoio troverai due rubinetti: uno <strong>rosso</strong> e uno <strong>nero</strong>.</li>
+            <li class="lang-content" data-lang="de">Auf der rechten Seite des Tanks finden Sie zwei Hähne: einen <strong>roten</strong> und einen <strong>schwarzen</strong>.</li>
+            <li class="lang-content" data-lang="fr">Sur le côté droit du réservoir, vous trouverez deux robinets : un <strong>rouge</strong> et un <strong>noir</strong>.</li>
+            <li class="lang-content" data-lang="sk">Na pravej strane nádrže nájdete dva ventily: jeden <strong>červený</strong> a jeden <strong>čierny</strong>.</li>
+            
+            <li class="lang-content active" data-lang="en">✔ Turn the <strong>BLACK tap to the RIGHT ➡</strong> (clockwise).</li>
+            <li class="lang-content" data-lang="it">✔ Gira il rubinetto <strong>NERO verso DESTRA ➡</strong> (in senso orario).</li>
+            <li class="lang-content" data-lang="de">✔ Drehen Sie den <strong>SCHWARZEN Hahn nach RECHTS ➡</strong> (im Uhrzeigersinn).</li>
+            <li class="lang-content" data-lang="fr">✔ Tournez le robinet <strong>NOIR vers la DROITE ➡</strong> (dans le sens horaire).</li>
+            <li class="lang-content" data-lang="sk">✔ Otočte <strong>ČIERNY ventil doprava ➡</strong> (v smere hodinových ručičiek).</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- STEP 4: Turn ON water tank switch -->
+      <div class="step-row">
+        <div class="step-num">4</div>
+        <div>
+          <strong class="lang-content active" data-lang="en">Turn ON the Water Tank Switch</strong>
+          <strong class="lang-content" data-lang="it">Accendere l'interruttore del serbatoio</strong>
+          <strong class="lang-content" data-lang="de">Wassertank‑Schalter einschalten</strong>
+          <strong class="lang-content" data-lang="fr">Allumer l'interrupteur du réservoir d'eau</strong>
+          <strong class="lang-content" data-lang="sk">Zapnite spínač vodnej nádrže</strong>
+          <ul class="step-details">
+            <li class="lang-content active" data-lang="en">On the left side (next to the light switch), turn the <strong>second switch ON</strong>.</li>
+            <li class="lang-content" data-lang="it">Sul lato sinistro (accanto all'interruttore della luce), accendi il <strong>secondo interruttore</strong>.</li>
+            <li class="lang-content" data-lang="de">Auf der linken Seite (neben dem Lichtschalter) schalten Sie den <strong>zweiten Schalter EIN</strong>.</li>
+            <li class="lang-content" data-lang="fr">Sur le côté gauche (à côté de l'interrupteur de la lumière), allumez le <strong>deuxième interrupteur</strong>.</li>
+            <li class="lang-content" data-lang="sk">Na ľavej strane (vedľa vypínača svetla) zapnite <strong>druhý spínač</strong>.</li>
+            
+            <li class="lang-content active" data-lang="en">You will hear the motor running for a few seconds while the system activates, and also every time water is being pumped.</li>
+            <li class="lang-content" data-lang="it">Sentirai il motore funzionare per qualche secondo mentre il sistema si attiva, e anche ogni volta che l'acqua viene pompata.</li>
+            <li class="lang-content" data-lang="de">Sie hören den Motor für einige Sekunden laufen, während das System aktiviert wird, und auch jedes Mal, wenn Wasser gepumpt wird.</li>
+            <li class="lang-content" data-lang="fr">Vous entendrez le moteur tourner pendant quelques secondes pendant l'activation du système, et aussi chaque fois que l'eau est pompée.</li>
+            <li class="lang-content" data-lang="sk">Počujete motor bežať niekoľko sekúnd, kým sa systém aktivuje, a tiež vždy, keď sa čerpá voda.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!-- VISUAL GALLERY – Water Tank Activation Steps -->
+<div class="step-gallery">
+  <h4 class="gallery-title lang-content active" data-lang="en">📸 Visual Guide – Follow Along</h4>
+  <h4 class="gallery-title lang-content" data-lang="it">📸 Guida visiva – Segui passo dopo passo</h4>
+  <h4 class="gallery-title lang-content" data-lang="de">📸 Visuelle Anleitung – Schritt für Schritt</h4>
+  <h4 class="gallery-title lang-content" data-lang="fr">📸 Guide visuel – Suivez pas à pas</h4>
+  <h4 class="gallery-title lang-content" data-lang="sk">📸 Vizuálny sprievodca – Sledujte krok za krokom</h4>
+  
+  <div class="step-gallery-grid">
+    <!-- Image 1: ps4.png – Close main valve outside kitchen window -->
+    <div class="step-gallery-item">
+      <img src="ps4.png" alt="Step 1" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+1'">
+      <div class="step-gallery-caption">
+        <span class="step-num">①</span>
+        <span class="lang-content active" data-lang="en">Close main valve outside kitchen window</span>
+        <span class="lang-content" data-lang="it">Chiudere la valvola principale fuori dalla finestra della cucina</span>
+        <span class="lang-content" data-lang="de">Hauptventil vor dem Küchenfenster schließen</span>
+        <span class="lang-content" data-lang="fr">Fermer la vanne principale à l'extérieur de la fenêtre de cuisine</span>
+        <span class="lang-content" data-lang="sk">Zatvorte hlavný ventil pred kuchynským oknom</span>
+      </div>
+    </div>
+    
+    <!-- Image 2: ps5.png – Place ladder, open small upper door -->
+    <div class="step-gallery-item">
+      <img src="ps5.png" alt="Step 2" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+2'">
+      <div class="step-gallery-caption">
+        <span class="step-num">②</span>
+        <span class="lang-content active" data-lang="en">Place ladder, open small upper door</span>
+        <span class="lang-content" data-lang="it">Posizionare la scala, aprire lo sportello superiore</span>
+        <span class="lang-content" data-lang="de">Leiter aufstellen, kleine obere Tür öffnen</span>
+        <span class="lang-content" data-lang="fr">Placer l'échelle, ouvrir la petite porte supérieure</span>
+        <span class="lang-content" data-lang="sk">Umiestnite rebrík, otvorte malé horné dvierka</span>
+      </div>
+    </div>
+    
+    <!-- Image 3: ps6.png – Inside: two switches + black/red taps -->
+  <!-- Image 3: ps6.png – Inside: two switches + black/red taps -->
+<div class="step-gallery-item">
+  <img src="ps6.png" alt="Step 3" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+3'">
+  <div class="step-gallery-caption">
+    <span class="step-num">③</span>
+    <span class="lang-content active" data-lang="en">
+      ❶ First switch → Turns the light ON<br>
+      ❷ Second switch → Activates the water tank
+    </span>
+    <span class="lang-content" data-lang="it">
+      ❶ Primo interruttore → Accende la luce<br>
+      ❷ Secondo interruttore → Attiva il serbatoio dell'acqua
+    </span>
+    <span class="lang-content" data-lang="de">
+      ❶ Erster Schalter → Schaltet das Licht EIN<br>
+      ❷ Zweiter Schalter → Aktiviert den Wassertank
+    </span>
+    <span class="lang-content" data-lang="fr">
+      ❶ Premier interrupteur → Allume la lumière<br>
+      ❷ Deuxième interrupteur → Active le réservoir d'eau
+    </span>
+    <span class="lang-content" data-lang="sk">
+      ❶ Prvý spínač → Zapne svetlo<br>
+      ❷ Druhý spínač → Aktivuje vodnú nádrž
+    </span>
+  </div>
+</div>
+    
+    <!-- Image 4: ps7.png – Turn BLACK tap to the RIGHT -->
+    <div class="step-gallery-item">
+      <img src="ps7.png" alt="Step 4" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+4'">
+      <div class="step-gallery-caption">
+        <span class="step-num">④</span>
+        <span class="lang-content active" data-lang="en">Turn BLACK tap → to the RIGHT</span>
+        <span class="lang-content" data-lang="it">Girare rubinetto NERO → verso DESTRA</span>
+        <span class="lang-content" data-lang="de">Schwarzen Hahn → nach RECHTS drehen</span>
+        <span class="lang-content" data-lang="fr">Tourner robinet NOIR → vers la DROITE</span>
+        <span class="lang-content" data-lang="sk">Otočte ČIERNY ventil → doprava</span>
+      </div>
+    </div>
+    
+    <!-- Image 5: ps8.png – Turn ON second switch (water tank) -->
+    <div class="step-gallery-item">
+      <img src="ps8.png" alt="Step 5" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+5'">
+      <div class="step-gallery-caption">
+        <span class="step-num">⑤</span>
+       <span class="lang-content active" data-lang="en">Turn second switch (water tank)</span>
+<span class="lang-content" data-lang="it">Gira il secondo interruttore (serbatoio acqua)</span>
+<span class="lang-content" data-lang="de">Schalten Sie den zweiten Schalter ein (Wassertank)</span>
+<span class="lang-content" data-lang="fr">Actionnez le deuxième interrupteur (réservoir d'eau)</span>
+<span class="lang-content" data-lang="sk">Zapnite druhý spínač (vodná nádrž)</span>
+      </div>
+    </div>
+    
+    <!-- Image 6: ps9.png – Restoring: turn black tap left, reopen main valve -->
+    <div class="step-gallery-item">
+      <img src="ps11.png" alt="Step 6" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+6'">
+      <div class="step-gallery-caption">
+        <span class="step-num">⑥</span>
+        <span class="lang-content active" data-lang="en">Restore: black tap LEFT, reopen main valve</span>
+        <span class="lang-content" data-lang="it">Ripristino: rubinetto nero a SINISTRA, riaprire valvola principale</span>
+        <span class="lang-content" data-lang="de">Wiederherstellen: schwarzen Hahn nach LINKS, Hauptventil wieder öffnen</span>
+        <span class="lang-content" data-lang="fr">Rétablir : robinet noir à GAUCHE, rouvrir la vanne principale</span>
+        <span class="lang-content" data-lang="sk">Obnovenie: čierny ventil doľava, znovu otvorte hlavný ventil</span>
+      </div>
+    </div>
+    <!-- Image 7: ps10.png – Refill: turn red tap UPWARD -->
+<div class="step-gallery-item">
+  <img src="ps10.png" alt="Step 7" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+7'">
+  <div class="step-gallery-caption">
+    <span class="step-num">⑦</span>
+    <span class="lang-content active" data-lang="en">Refill: turn the RED tap UPWARD ⬆</span>
+    <span class="lang-content" data-lang="it">Riempimento: gira il rubinetto ROSSO verso l'ALTO ⬆</span>
+    <span class="lang-content" data-lang="de">Nachfüllen: drehen Sie den ROTEN Hahn nach OBEN ⬆</span>
+    <span class="lang-content" data-lang="fr">Remplissage : tournez le robinet ROUGE vers le HAUT ⬆</span>
+    <span class="lang-content" data-lang="sk">Doplnenie: otočte ČERVENÝ ventil nahor ⬆</span>
+  </div>
+</div>
+  </div>
+</div>
+    <!-- RESTORING NORMAL WATER SUPPLY (Next Day) -->
+    <h3 class="lang-content active" data-lang="en">🔄 Restoring Normal Water Supply (Next Day)</h3>
+    <h3 class="lang-content" data-lang="it">🔄 Ripristinare la normale fornitura idrica (giorno successivo)</h3>
+    <h3 class="lang-content" data-lang="de">🔄 Wiederherstellung der normalen Wasserversorgung (am nächsten Tag)</h3>
+    <h3 class="lang-content" data-lang="fr">🔄 Rétablir l'alimentation normale en eau (le lendemain)</h3>
+    <h3 class="lang-content" data-lang="sk">🔄 Obnovenie bežnej dodávky vody (nasledujúci deň)</h3>
+    <ul class="step-details" style="margin-bottom: 1.5rem;">
+      <li class="lang-content active" data-lang="en">✔ Turn OFF the water tank switch (the second switch).</li>
+      <li class="lang-content" data-lang="it">✔ Spegni l'interruttore del serbatoio (il secondo interruttore).</li>
+      <li class="lang-content" data-lang="de">✔ Schalten Sie den Wassertank‑Schalter AUS (den zweiten Schalter).</li>
+      <li class="lang-content" data-lang="fr">✔ Éteignez l'interrupteur du réservoir d'eau (le deuxième interrupteur).</li>
+      <li class="lang-content" data-lang="sk">✔ Vypnite spínač vodnej nádrže (druhý spínač).</li>
+      
+      <li class="lang-content active" data-lang="en">✔ Turn the black tap back to the LEFT ⬅ (counter‑clockwise).</li>
+      <li class="lang-content" data-lang="it">✔ Gira il rubinetto nero verso SINISTRA ⬅ (in senso antiorario).</li>
+      <li class="lang-content" data-lang="de">✔ Drehen Sie den schwarzen Hahn zurück nach LINKS ⬅ (gegen den Uhrzeigersinn).</li>
+      <li class="lang-content" data-lang="fr">✔ Remettez le robinet noir vers la GAUCHE ⬅ (dans le sens antihoraire).</li>
+      <li class="lang-content" data-lang="sk">✔ Otočte čierny ventil späť doľava ⬅ (proti smeru hodinových ručičiek).</li>
+      
+      <li class="lang-content active" data-lang="en">✔ Reopen the main water supply outside the kitchen window (turn the valve back to the open position).</li>
+      <li class="lang-content" data-lang="it">✔ Riapri l'alimentazione principale dell'acqua fuori dalla finestra della cucina (gira la valvola in posizione aperta).</li>
+      <li class="lang-content" data-lang="de">✔ Öffnen Sie die Hauptwasserzufuhr draußen am Küchenfenster wieder (drehen Sie das Ventil zurück in die offene Position).</li>
+      <li class="lang-content" data-lang="fr">✔ Rouvrez l'alimentation principale en eau à l'extérieur de la fenêtre de la cuisine (remettez la vanne en position ouverte).</li>
+      <li class="lang-content" data-lang="sk">✔ Znovu otvorte hlavný prívod vody vonku pri kuchynskom okne (otočte ventil späť do otvorenej polohy).</li>
+    </ul>
+
+    <!-- REFILLING THE TANK -->
+    <h3 class="lang-content active" data-lang="en">🔁 Refilling the Tank (Precautionary)</h3>
+    <h3 class="lang-content" data-lang="it">🔁 Riempire il serbatoio (come precauzione)</h3>
+    <h3 class="lang-content" data-lang="de">🔁 Den Tank auffüllen (vorsorglich)</h3>
+    <h3 class="lang-content" data-lang="fr">🔁 Remplir le réservoir (par précaution)</h3>
+    <h3 class="lang-content" data-lang="sk">🔁 Naplnenie nádrže (preventívne)</h3>
+    <ul class="step-details" style="margin-bottom: 1.5rem;">
+      <li class="lang-content active" data-lang="en">✔ Up in the tank room, turn the <strong>red tap upward ⬆</strong> to refill.</li>
+      <li class="lang-content" data-lang="it">✔ Su nella stanza del serbatoio, gira il rubinetto <strong>rosso verso l'alto ⬆</strong> per riempire.</li>
+      <li class="lang-content" data-lang="de">✔ Oben im Tankraum drehen Sie den <strong>roten Hahn nach OBEN ⬆</strong>, um aufzufüllen.</li>
+      <li class="lang-content" data-lang="fr">✔ En haut dans la pièce du réservoir, tournez le robinet <strong>rouge vers le HAUT ⬆</strong> pour remplir.</li>
+      <li class="lang-content" data-lang="sk">✔ Hore v miestnosti nádrže otočte <strong>červený ventil nahor ⬆</strong>, aby ste ju naplnili.</li>
+      
+      <li class="lang-content active" data-lang="en">✔ Filling takes approximately 5 minutes. When you no longer hear water flowing, return the tap to its original position ➡.</li>
+      <li class="lang-content" data-lang="it">✔ Il riempimento richiede circa 5 minuti. Quando non senti più acqua scorrere, riporta il rubinetto nella posizione originale ➡.</li>
+      <li class="lang-content" data-lang="de">✔ Das Befüllen dauert etwa 5 Minuten. Wenn Sie kein fließendes Wasser mehr hören, bringen Sie den Hahn in seine ursprüngliche Position zurück ➡.</li>
+      <li class="lang-content" data-lang="fr">✔ Le remplissage prend environ 5 minutes. Lorsque vous n'entendez plus l'eau couler, remettez le robinet dans sa position d'origine ➡.</li>
+      <li class="lang-content" data-lang="sk">✔ Plnenie trvá približne 5 minút. Keď už nepočujete prúdenie vody, vráťte ventil do pôvodnej polohy ➡.</li>
+    </ul>
+
+    <!-- Assistance Message -->
+    <div class="alert-modern alert-success">
+      <i class="fas fa-smile-wink"></i>
+      <div>
+        <span class="lang-content active" data-lang="en">If you experience any difficulty or prefer assistance, please do not hesitate to contact us. We are always happy to guide you step by step. Your comfort and peace of mind are very important to us, and we truly appreciate your understanding during these rare regional interruptions. 😊</span>
+        <span class="lang-content" data-lang="it">Se incontri difficoltà o preferisci assistenza, non esitare a contattarci. Siamo sempre felici di guidarti passo dopo passo. Il tuo comfort e la tua tranquillità sono molto importanti per noi, e apprezziamo la tua comprensione durante queste rare interruzioni regionali. 😊</span>
+        <span class="lang-content" data-lang="de">Wenn Sie Schwierigkeiten haben oder Hilfe wünschen, zögern Sie bitte nicht, uns zu kontaktieren. Wir helfen Ihnen gerne Schritt für Schritt. Ihr Komfort und Ihre Ruhe sind uns sehr wichtig, und wir danken Ihnen für Ihr Verständnis bei diesen seltenen regionalen Unterbrechungen. 😊</span>
+        <span class="lang-content" data-lang="fr">Si vous rencontrez des difficultés ou préférez une assistance, n'hésitez pas à nous contacter. Nous sommes toujours heureux de vous guider pas à pas. Votre confort et votre tranquillité d'esprit sont très importants pour nous, et nous apprécions votre compréhension lors de ces rares interruptions régionales. 😊</span>
+        <span class="lang-content" data-lang="sk">Ak narazíte na akékoľvek ťažkosti alebo uprednostňujete asistenciu, neváhajte nás kontaktovať. Vždy vám radi poradíme krok za krokom. Vaše pohodlie a pokojná myseľ sú pre nás veľmi dôležité a veľmi si vážime vaše pochopenie počas týchto zriedkavých regionálnych prerušení. 😊</span>
+      </div>
+    </div>
+
+    <!-- Critical Alerts (keep existing) -->
+    <div class="alert-modern alert-critical">
+      <i class="fas fa-skull-crosswalk"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">⛔ CRITICAL — WATER NOT DRINKABLE</strong>
+        <strong class="lang-content" data-lang="it">⛔ CRITICO — ACQUA NON POTABILE</strong>
+        <strong class="lang-content" data-lang="de">⛔ KRITISCH — WASSER NICHT TRINKBAR</strong>
+        <strong class="lang-content" data-lang="fr">⛔ CRITIQUE — EAU NON POTABLE</strong>
+        <strong class="lang-content" data-lang="sk">⛔ KRITICKÉ — VODA NIE JE PITNÁ</strong>
+        <br>
+       <span class="lang-content active" data-lang="en">Emergency water is for showers, toilets, and essential use only. <strong>Please do not drink it</strong>.</span>
+
+<span class="lang-content" data-lang="it">L'acqua di emergenza è solo per docce, WC e usi essenziali. <strong>Non berla</strong>.</span>
+
+<span class="lang-content" data-lang="de">Notwasser ist nur für Duschen, Toiletten und den notwendigen Gebrauch bestimmt. <strong>Bitte trinken Sie es nicht</strong>.</span>
+
+<span class="lang-content" data-lang="fr">L'eau de secours est uniquement pour les douches, les toilettes et les usages essentiels. <strong>Ne la buvez pas</strong>.</span>
+
+<span class="lang-content" data-lang="sk">Núdzová voda je len na sprchy, WC a nevyhnutné použitie. <strong>Nepite ju</strong>.</span>
+      </div>
+    </div>
+
+    <div class="alert-modern alert-critical">
+      <i class="fas fa-pump-soap"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">🚫 WASHING MACHINE RESTRICTION</strong>
+        <strong class="lang-content" data-lang="it">🚫 RESTRIZIONE LAVATRICE</strong>
+        <strong class="lang-content" data-lang="de">🚫 WASCHMASCHINEN-EINSCHRÄNKUNG</strong>
+        <strong class="lang-content" data-lang="fr">🚫 RESTRICTION LAVE-LINGE</strong>
+        <strong class="lang-content" data-lang="sk">🚫 OBMEDZENIE PRÁČKY</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Do NOT use washing machine during water interruption.</span>
+        <span class="lang-content" data-lang="it">Non usare la lavatrice durante l'interruzione dell'acqua.</span>
+        <span class="lang-content" data-lang="de">Benutzen Sie die Waschmaschine NICHT während der Wasserunterbrechung.</span>
+        <span class="lang-content" data-lang="fr">N'utilisez PAS la machine à laver pendant la coupure d'eau.</span>
+        <span class="lang-content" data-lang="sk">Nepoužívajte práčku počas prerušenia dodávky vody.</span>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+ <!-- ====================== POWER SECTION ====================== -->
+ 
+ 
+ <div class="chapter-card" id="power">
+  <div class="chapter-header">
+    <div class="chapter-icon">⚡</div>
+    <div class="chapter-title lang-content active" data-lang="en">Electricity & Hot Water</div>
+    <div class="chapter-title lang-content" data-lang="it">Elettricità e Acqua Calda</div>
+    <div class="chapter-title lang-content" data-lang="de">Strom & Warmwasser</div>
+    <div class="chapter-title lang-content" data-lang="fr">Électricité & Eau Chaude</div>
+    <div class="chapter-title lang-content" data-lang="sk">Elektrina a Teplá Voda</div>
+  </div>
+  <div class="chapter-body">
+    <!-- Sicilian timing note -->
+    <div class="alert-modern alert-info">
+      <i class="fas fa-info-circle"></i>
+      <div>
+       <span class="lang-content active" data-lang="en">⚡ Ah, Sicily… where the sea sparkles, the sun shines brightly, and life follows its own sweet rhythm. Relax, this is Sicily. Things happen when they happen. 🌊🍋</span>
+
+<span class="lang-content" data-lang="it">⚡ Ah, la Sicilia… dove il mare scintilla, il sole splende e la vita segue il suo dolce ritmo. Rilassati, questa è la Sicilia. Le cose accadono quando accadono. 🌊🍋</span>
+
+<span class="lang-content" data-lang="de">⚡ Ah, Sizilien… wo das Meer glitzert, die Sonne strahlt und das Leben seinem eigenen süßen Rhythmus folgt. Entspannen Sie sich, das ist Sizilien. Die Dinge passieren, wenn sie passieren. 🌊🍋</span>
+
+<span class="lang-content" data-lang="fr">⚡ Ah, la Sicile… où la mer scintille, le soleil brille et la vie suit son propre doux rythme. Détendez-vous, c'est la Sicile. Les choses arrivent quand elles arrivent. 🌊🍋</span>
+
+<span class="lang-content" data-lang="sk">⚡ Ah, Sicília… kde sa more trblieta, slnko jasne svieti a život plynie svojím sladkým rytmom. Relaxujte, toto je Sicília. Veci sa dejú, keď sa dejú. 🌊🍋</span>
+      </div>
+    </div>
+
+    <!-- Max capacity warning -->
+    <div class="alert-modern alert-warning">
+      <i class="fas fa-exclamation-triangle"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">⚡ Max capacity: 6,000 watts</strong>
+        <strong class="lang-content" data-lang="it">⚡ Capacità massima: 6.000 watt</strong>
+        <strong class="lang-content" data-lang="de">⚡ Maximale Kapazität: 6.000 Watt</strong>
+        <strong class="lang-content" data-lang="fr">⚡ Capacité maximale : 6 000 watts</strong>
+        <strong class="lang-content" data-lang="sk">⚡ Maximálna kapacita: 6 000 wattov</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">To avoid power cuts, please avoid using several high-energy appliances at the same time (induction stove, washing machine, kettle, hairdryer, A/C, etc.).</span>
+        <span class="lang-content" data-lang="it">Per evitare blackout, evita di utilizzare più elettrodomestici ad alto consumo contemporaneamente (piano a induzione, lavatrice, bollitore, asciugacapelli, condizionatore, ecc.).</span>
+        <span class="lang-content" data-lang="de">Um Stromausfälle zu vermeiden, verwenden Sie bitte nicht mehrere stromintensive Geräte gleichzeitig (Induktionsherd, Waschmaschine, Wasserkocher, Haartrockner, Klimaanlage usw.).</span>
+        <span class="lang-content" data-lang="fr">Pour éviter les coupures de courant, évitez d'utiliser plusieurs appareils énergivores en même temps (plaque à induction, lave-linge, bouilloire, sèche-cheveux, climatisation, etc.).</span>
+        <span class="lang-content" data-lang="sk">Aby ste predišli výpadkom prúdu, vyhnite sa súčasnému používaniu viacerých spotrebičov s vysokou spotrebou energie (indukčná doska, práčka, rýchlovarná kanvica, fén, klimatizácia atď.).</span>
+      </div>
+    </div>
+<!-- Subheading: If power goes out -->
+<h3 class="lang-content active" data-lang="en">If the power goes out — follow these steps</h3>
+<h3 class="lang-content" data-lang="it">Se salta la luce — segui questi passaggi</h3>
+<h3 class="lang-content" data-lang="de">Wenn der Strom ausfällt — befolgen Sie diese Schritte</h3>
+<h3 class="lang-content" data-lang="fr">En cas de panne de courant — suivez ces étapes</h3>
+<h3 class="lang-content" data-lang="sk">Ak vypadne prúd — postupujte podľa týchto krokov</h3>
+
+<!-- Steps (detailed) -->
+<div class="step-list">
+  <!-- Step 1 -->
+  <div class="step-row">
+    <div class="step-num">1</div>
+    <div>
+      <strong class="lang-content active" data-lang="en">Check the first fuse box</strong>
+      <strong class="lang-content" data-lang="it">Controlla il primo quadro elettrico</strong>
+      <strong class="lang-content" data-lang="de">Überprüfen Sie den ersten Sicherungskasten</strong>
+      <strong class="lang-content" data-lang="fr">Vérifiez le premier tableau électrique</strong>
+      <strong class="lang-content" data-lang="sk">Skontrolujte prvý rozvádzač</strong>
+      <br>
+      <span class="lang-content active" data-lang="en">Go to the hallway and open the <strong>green wardrobe</strong> on the right-hand side. On the wall you will see a fuse box. Lift the lid of the fuse box. Make sure all the switches are in the up position. If any switch is down, simply push it back up.</span>
+      <span class="lang-content" data-lang="it">Vai nel corridoio e apri l'<strong>armadio verde</strong> sulla destra. Sulla parete vedrai un quadro elettrico. Solleva il coperchio del quadro. Assicurati che tutti gli interruttori siano in posizione alta. Se qualche interruttore è abbassato, spingilo semplicemente verso l'alto.</span>
+      <span class="lang-content" data-lang="de">Gehen Sie in den Flur und öffnen Sie den <strong>grünen Schrank</strong> auf der rechten Seite. An der Wand sehen Sie einen Sicherungskasten. Heben Sie den Deckel des Sicherungskastens an. Stellen Sie sicher, dass alle Schalter oben sind. Wenn ein Schalter unten ist, drücken Sie ihn einfach wieder nach oben.</span>
+      <span class="lang-content" data-lang="fr">Allez dans le couloir et ouvrez l'<strong>armoire verte</strong> sur la droite. Sur le mur, vous verrez un tableau électrique. Soulevez le couvercle du tableau. Assurez-vous que tous les interrupteurs sont en position haute. Si un interrupteur est en bas, remontez‑le simplement.</span>
+      <span class="lang-content" data-lang="sk">Choďte na chodbu a otvorte <strong>zelenú skriňu</strong> na pravej strane. Na stene uvidíte rozvádzač. Zdvihnite veko rozvádzača. Uistite sa, že všetky spínače sú hore. Ak je niektorý spínač dole, jednoducho ho prepnite nahor.</span>
+      <br>
+      <strong class="lang-content active" data-lang="en">If everything is already up and there is still no electricity, follow the second step.</strong>
+      <strong class="lang-content" data-lang="it">Se è già tutto in posizione alta e non c'è ancora corrente, segui il secondo passaggio.</strong>
+      <strong class="lang-content" data-lang="de">Wenn bereits alles oben ist und immer noch kein Strom fließt, befolgen Sie den zweiten Schritt.</strong>
+      <strong class="lang-content" data-lang="fr">Si tout est déjà en position haute et qu'il n'y a toujours pas d'électricité, suivez la deuxième étape.</strong>
+      <strong class="lang-content" data-lang="sk">Ak je už všetko hore a stále nie je prúd, postupujte podľa druhého kroku.</strong>
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="step-row">
+    <div class="step-num">2</div>
+    <div>
+      <strong class="lang-content active" data-lang="en">Check the main switch</strong>
+      <strong class="lang-content" data-lang="it">Controlla l'interruttore principale</strong>
+      <strong class="lang-content" data-lang="de">Überprüfen Sie den Hauptschalter</strong>
+      <strong class="lang-content" data-lang="fr">Vérifiez l'interrupteur principal</strong>
+      <strong class="lang-content" data-lang="sk">Skontrolujte hlavný spínač</strong>
+      <br>
+      <span class="lang-content active" data-lang="en">Go downstairs to the main entrance door. On your left-hand side, above your head, you'll see a <strong>white cabinet</strong> with the main switches inside. Find the switch labeled <strong>"Vitamin Sea"</strong> (it's in the middle and marked). Push it back to the up position. That should restore the power right away.</span>
+      <span class="lang-content" data-lang="it">Scendi al piano terra vicino alla porta d'ingresso principale. Sul lato sinistro, sopra la tua testa, vedrai un <strong>armadio bianco</strong> con gli interruttori principali. Trova l'interruttore etichettato <strong>"Vitamin Sea"</strong> (è al centro e contrassegnato). Spingilo verso l'alto. Questo dovrebbe ripristinare immediatamente la corrente.</span>
+      <span class="lang-content" data-lang="de">Gehen Sie nach unten zur Haupteingangstür. Auf Ihrer linken Seite, über Ihrem Kopf, sehen Sie einen <strong>weißen Schrank</strong> mit den Hauptschaltern. Finden Sie den Schalter mit der Aufschrift <strong>"Vitamin Sea"</strong> (er ist in der Mitte und markiert). Drücken Sie ihn wieder nach oben. Dadurch sollte sofort der Strom wiederhergestellt sein.</span>
+      <span class="lang-content" data-lang="fr">Descendez en bas près de la porte d'entrée principale. Sur votre gauche, au‑dessus de votre tête, vous verrez une <strong>armoire blanche</strong> contenant les interrupteurs principaux. Trouvez l'interrupteur étiqueté <strong>"Vitamin Sea"</strong> (il est au centre et marqué). Poussez‑le vers le haut. Cela devrait rétablir l'électricité immédiatement.</span>
+      <span class="lang-content" data-lang="sk">Choďte dole k hlavným vchodovým dverám. Na ľavej strane, nad vašou hlavou, uvidíte <strong>biely rozvádzač</strong> s hlavnými spínačmi. Nájdite spínač označený <strong>"Vitamin Sea"</strong> (je v strede a označený). Prepnite ho späť nahor. To by malo okamžite obnoviť prúd.</span>
+    </div>
+  </div>
+</div>
+
+<!-- Assistance message -->
+<div class="alert-modern alert-success">
+  <i class="fas fa-smile-wink"></i>
+  <div>
+    <span class="lang-content active" data-lang="en">If you need any help at all, please feel free to message us — we're always happy to assist! 😊</span>
+    <span class="lang-content" data-lang="it">Se hai bisogno di qualsiasi aiuto, non esitare a scriverci — siamo sempre felici di aiutarti! 😊</span>
+    <span class="lang-content" data-lang="de">Wenn Sie irgendwelche Hilfe benötigen, schreiben Sie uns bitte – wir helfen Ihnen immer gerne! 😊</span>
+    <span class="lang-content" data-lang="fr">Si vous avez besoin d'aide, n'hésitez pas à nous envoyer un message – nous sommes toujours heureux de vous aider ! 😊</span>
+    <span class="lang-content" data-lang="sk">Ak budete potrebovať akúkoľvek pomoc, neváhajte nám napísať – vždy vám radi pomôžeme! 😊</span>
+  </div>
+</div>
+    <!-- Mini gallery -->
+    <div class="mini-gallery">
+      <figure>
+        <img src="ps2.png" alt="Fuse box" onerror="this.src='https://placehold.co/150x120/166f8a/white?text=Fuse+Box'">
+        <figcaption class="lang-content active" data-lang="en">Hallway fuse box</figcaption>
+        <figcaption class="lang-content" data-lang="it">Quadro elettrico corridoio</figcaption>
+        <figcaption class="lang-content" data-lang="de">Sicherungskasten Flur</figcaption>
+        <figcaption class="lang-content" data-lang="fr">Tableau électrique couloir</figcaption>
+        <figcaption class="lang-content" data-lang="sk">Rozvádzač na chodbe</figcaption>
+      </figure>
+      <figure>
+        <img src="ps3.png" alt="Main switch" onerror="this.src='https://placehold.co/150x120/166f8a/white?text=Main+Switch'">
+        <figcaption class="lang-content active" data-lang="en">Main "Vitamin Sea" switch</figcaption>
+        <figcaption class="lang-content" data-lang="it">Interruttore principale "Vitamin Sea"</figcaption>
+        <figcaption class="lang-content" data-lang="de">Hauptschalter "Vitamin Sea"</figcaption>
+        <figcaption class="lang-content" data-lang="fr">Interrupteur principal "Vitamin Sea"</figcaption>
+        <figcaption class="lang-content" data-lang="sk">Hlavný spínač "Vitamin Sea"</figcaption>
+      </figure>
+    </div>
+
+    <!-- Hot water check -->
+    <div class="alert-modern alert-success">
+      <i class="fas fa-fire"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">🔥 Don't you have hot water?</strong>
+        <strong class="lang-content" data-lang="it">🔥 Non hai acqua calda?</strong>
+        <strong class="lang-content" data-lang="de">🔥 Haben Sie kein Warmwasser?</strong>
+        <strong class="lang-content" data-lang="fr">🔥 Vous n'avez pas d'eau chaude ?</strong>
+        <strong class="lang-content" data-lang="sk">🔥 Nemáte teplú vodu?</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Check the hot water wall switch. It is located on the left side of the kitchen window, near the corner. Make sure it is turned ON.</span>
+        <span class="lang-content" data-lang="it">Controlla l'interruttore a muro dell'acqua calda. Si trova sul lato sinistro della finestra della cucina, vicino all'angolo. Assicurati che sia acceso.</span>
+        <span class="lang-content" data-lang="de">Überprüfen Sie den Warmwasser‑Wandschalter. Er befindet sich auf der linken Seite des Küchenfensters, nahe der Ecke. Stellen Sie sicher, dass er eingeschaltet ist.</span>
+        <span class="lang-content" data-lang="fr">Vérifiez l'interrupteur mural de l'eau chaude. Il se trouve sur le côté gauche de la fenêtre de la cuisine, près du coin. Assurez-vous qu'il est allumé.</span>
+        <span class="lang-content" data-lang="sk">Skontrolujte nástenný spínač teplej vody. Nachádza sa na ľavej strane kuchynského okna, blízko rohu. Uistite sa, že je zapnutý.</span>
+      </div>
+    </div>
+  <!-- Extra tip for hot water -->
+<div class="alert-modern alert-info">
+  <i class="fas fa-lightbulb"></i>
+  <div>
+    <strong class="lang-content active" data-lang="en">💡 Extra Tip for hot water</strong>
+    <strong class="lang-content" data-lang="it">💡 Consiglio extra per l'acqua calda</strong>
+    <strong class="lang-content" data-lang="de">💡 Zusätzlicher Tipp für Warmwasser</strong>
+    <strong class="lang-content" data-lang="fr">💡 Conseil supplémentaire pour l'eau chaude</strong>
+    <strong class="lang-content" data-lang="sk">💡 Dodatočný tip na teplú vodu</strong>
+    <br>
+    <span class="lang-content active" data-lang="en">If the water is warm but not hot enough, please make sure the bidet handle is fully closed (down position) when not in use. If it stays open, the shower and taps may not get enough hot water.</span>
+    <span class="lang-content" data-lang="it">Se l'acqua è tiepida ma non abbastanza calda, assicurati che la maniglia del bidet sia completamente chiusa (posizione verso il basso) quando non viene utilizzata. Se rimane aperta, la doccia e i rubinetti potrebbero non ricevere abbastanza acqua calda.</span>
+    <span class="lang-content" data-lang="de">Wenn das Wasser warm, aber nicht heiß genug ist, stellen Sie bitte sicher, dass der Bidetgriff bei Nichtgebrauch vollständig geschlossen ist (untere Position). Wenn er offen bleibt, erhalten Dusche und Wasserhähne möglicherweise nicht genug heißes Wasser.</span>
+    <span class="lang-content" data-lang="fr">Si l'eau est tiède mais pas assez chaude, assurez-vous que la poignée du bidet est complètement fermée (position basse) lorsqu'elle n'est pas utilisée. Si elle reste ouverte, la douche et les robinets peuvent ne pas recevoir suffisamment d'eau chaude.</span>
+    <span class="lang-content" data-lang="sk">Ak je voda teplá, ale nie dostatočne horúca, uistite sa, že rukoväť bidetu je pri nepoužívaní úplne zatvorená (dolná poloha). Ak zostane otvorená, sprcha a kohútiky nemusia mať dostatok teplej vody.</span>
+  </div>
+</div>
+  </div>
+</div>
+  
+  
+  
+  
+  <!-- KEY & DOOR (simple list – no step numbers) -->
+<div class="chapter-card" id="checkin">
+  <div class="chapter-header">
+    <div class="chapter-icon">🔑</div>
+    <div class="chapter-title lang-content active" data-lang="en">Key & Door Instructions</div>
+    <div class="chapter-title lang-content" data-lang="it">Istruzioni per Chiavi e Porta</div>
+    <div class="chapter-title lang-content" data-lang="de">Schlüssel- und Türanleitung</div>
+    <div class="chapter-title lang-content" data-lang="fr">Instructions pour les clés et la porte</div>
+    <div class="chapter-title lang-content" data-lang="sk">Pokyny pre kľúče a dvere</div>
+  </div>
+  <div class="chapter-body">
+  <h3 class="lang-content active" data-lang="en">Instructions for the second-floor apartment door</h3>
+<h3 class="lang-content" data-lang="it">Istruzioni per la porta dell'appartamento al secondo piano</h3>
+<h3 class="lang-content" data-lang="de">Anweisungen für die Wohnungstür im zweiten Stock</h3>
+<h3 class="lang-content" data-lang="fr">Instructions pour la porte de l'appartement au deuxième étage</h3>
+<h3 class="lang-content" data-lang="sk">Pokyny pre dvere apartmánu na druhom poschodí</h3>
+    <div class="step-list">
+      <!-- 1. Unlocking & Entering -->
+      <div class="step-item-plain">
+        <strong class="lang-content active" data-lang="en">🔓 Unlocking & Entering </strong>
+        <strong class="lang-content" data-lang="it">🔓 Apertura ed entrata</strong>
+        <strong class="lang-content" data-lang="de">🔓 Aufschließen & Eintreten</strong>
+        <strong class="lang-content" data-lang="fr">🔓 Déverrouillage et entrée</strong>
+        <strong class="lang-content" data-lang="sk">🔓 Odomknutie a vstup</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">You can unlock and open the door from outside using the key.</span>
+        <span class="lang-content" data-lang="it">Puoi aprire la porta dall'esterno usando la chiave.</span>
+        <span class="lang-content" data-lang="de">Sie können die Tür von außen mit dem Schlüssel aufschließen und öffnen.</span>
+        <span class="lang-content" data-lang="fr">Vous pouvez déverrouiller et ouvrir la porte de l'extérieur avec la clé.</span>
+        <span class="lang-content" data-lang="sk">Dvere môžete odomknúť a otvoriť zvonku pomocou kľúča.</span>
+      </div>
+
+      <!-- 2. Locking from Inside -->
+      <div class="step-item-plain">
+        <strong class="lang-content active" data-lang="en">🔒 Locking the  Door from Inside</strong>
+        <strong class="lang-content" data-lang="it">🔒 Chiusura della porta dall'interno</strong>
+        <strong class="lang-content" data-lang="de">🔒 Abschließen der Tür von innen</strong>
+        <strong class="lang-content" data-lang="fr">🔒 Verrouillage de la porte de l'intérieur</strong>
+        <strong class="lang-content" data-lang="sk">🔒 Zamknutie dverí zvnútra</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">There is a small knob above the door handle. This allows you to secure the apartment without using the key.</span>
+        <span class="lang-content" data-lang="it">C'è una piccola manopola sopra la maniglia della porta. Questo ti permette di chiudere l'appartamento senza usare la chiave.</span>
+        <span class="lang-content" data-lang="de">Über dem Türgriff befindet sich ein kleiner Knopf. Damit können Sie die Wohnung sichern, ohne den Schlüssel zu benutzen.</span>
+        <span class="lang-content" data-lang="fr">Il y a un petit bouton au-dessus de la poignée de porte. Cela vous permet de sécuriser l'appartement sans utiliser la clé.</span>
+        <span class="lang-content" data-lang="sk">Nad kľučkou dverí je malý gombík. Ten vám umožní zamknúť apartmán bez použitia kľúča.</span>
+      </div>
+
+      <!-- 3. Locking from Outside -->
+      <div class="step-item-plain">
+        <strong class="lang-content active" data-lang="en">🔐 Locking the apartment Door from Outside</strong>
+        <strong class="lang-content" data-lang="it">🔐 Chiusura della porta dall'esterno</strong>
+        <strong class="lang-content" data-lang="de">🔐 Abschließen der Tür von außen</strong>
+        <strong class="lang-content" data-lang="fr">🔐 Verrouillage de la porte de l'extérieur</strong>
+        <strong class="lang-content" data-lang="sk">🔐 Zamknutie dverí zvonku</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Always use the key to lock the apartment door when leaving the property.</span>
+        <span class="lang-content" data-lang="it">Usa sempre la chiave per chiudere la porta quando esci dalla proprietà.</span>
+        <span class="lang-content" data-lang="de">Verwenden Sie immer den Schlüssel, um die Tür zu verschließen, wenn Sie die Unterkunft verlassen.</span>
+        <span class="lang-content" data-lang="fr">Utilisez toujours la clé pour verrouiller la porte en quittant le logement.</span>
+        <span class="lang-content" data-lang="sk">Pri odchode z apartmánu vždy použite kľúč na zamknutie dverí.</span>
+      </div>
+<div class="alert-modern alert-success">
+      <i class="fas fa-key"></i>
+      <div>
+         <span class="lang-content active" data-lang="en">The key cannot be inserted from inside — this prevents accidentally locking yourself in.</span>
+    <span class="lang-content" data-lang="it">La chiave non può essere inserita dall'interno — questo impedisce di chiuderti accidentalmente dentro.</span>
+    <span class="lang-content" data-lang="de">Der Schlüssel kann von innen nicht eingesteckt werden – das verhindert das versehentliche Einsperren.</span>
+    <span class="lang-content" data-lang="fr">La clé ne peut pas être insérée de l'intérieur – cela empêche de s'enfermer accidentellement.</span>
+    <span class="lang-content" data-lang="sk">Kľúč nie je možné vložiť zvnútra – to zabraňuje náhodnému zamknutiu.</span>
+      </div>
+    </div>
+   <!-- 4. Important – Downstairs Door (as alert) -->
+<div class="alert-modern alert-warning">
+  <i class="fas fa-exclamation-triangle"></i>
+  <div>
+    <strong class="lang-content active" data-lang="en">🚪 Important – Downstairs Door</strong>
+    <strong class="lang-content" data-lang="it">🚪 Importante – Porta al piano terra</strong>
+    <strong class="lang-content" data-lang="de">🚪 Wichtig – Haustür im Erdgeschoss</strong>
+    <strong class="lang-content" data-lang="fr">🚪 Important – Porte du rez‑de‑chaussée</strong>
+    <strong class="lang-content" data-lang="sk">🚪 Dôležité – Vchodové dvere na prízemí</strong>
+    <br>
+    <span class="lang-content active" data-lang="en">Do not lock the entrance door on the ground floor. Other residents rely on the door system. Simply push it firmly shut. The key is only for opening from outside.</span>
+    <span class="lang-content" data-lang="it">Non chiudere a chiave la porta d'ingresso al piano terra. Gli altri residenti usano il sistema della porta. Basta spingere con decisione per chiudere. La chiave serve solo per aprire dall'esterno.</span>
+    <span class="lang-content" data-lang="de">Schließen Sie die Haustür im Erdgeschoss nicht ab. Andere Bewohner nutzen das Türsystem. Drücken Sie die Tür einfach fest zu. Der Schlüssel dient nur zum Öffnen von außen.</span>
+    <span class="lang-content" data-lang="fr">Ne verrouillez pas la porte d'entrée du rez‑de‑chaussée. Les autres résidents utilisent le système de porte. Poussez simplement fermement pour fermer. La clé sert uniquement à ouvrir de l'extérieur.</span>
+    <span class="lang-content" data-lang="sk">Nezamykajte vchodové dvere na prízemí. Ostatní obyvatelia používajú dverový systém. Dvere stačí pevne pribuchnúť. Kľúč slúži len na otváranie zvonku.</span>
+    <br>
+   
+  </div>
+</div>
+  
+
+    </div>
+  </div>
+</div>
+  
+
+<!-- WHERE TO FIND THINGS (UPDATED with full details) -->
+<div class="chapter-card" id="find">
+  <div class="chapter-header">
+    <div class="chapter-icon">📍</div>
+    <div class="chapter-title lang-content active" data-lang="en">Where to Find Things</div>
+    <div class="chapter-title lang-content" data-lang="it">Dove Trovare le Cose</div>
+    <div class="chapter-title lang-content" data-lang="de">Wo Sie Dinge finden</div>
+    <div class="chapter-title lang-content" data-lang="fr">Où Trouver les Objets</div>
+    <div class="chapter-title lang-content" data-lang="sk">Kde Nájsť Veci</div>
+  </div>
+  <div class="chapter-body">
+    <div class="grid-2">
+      
+      <!-- BEDROOM CARD -->
+      <div class="info-card">
+        <h3 class="lang-content active" data-lang="en">🛏 Bedroom</h3>
+        <h3 class="lang-content" data-lang="it">🛏 Camera da Letto</h3>
+        <h3 class="lang-content" data-lang="de">🛏 Schlafzimmer</h3>
+        <h3 class="lang-content" data-lang="fr">🛏 Chambre</h3>
+        <h3 class="lang-content" data-lang="sk">🛏 Spálňa</h3>
+        
+        <p>
+          <span class="lang-content active" data-lang="en">Blankets → box in the bedroom, located under the hangers.</span>
+          <span class="lang-content" data-lang="it">Coperte → scatola in camera da letto, posizionata sotto le grucce.</span>
+          <span class="lang-content" data-lang="de">Decken → Kiste im Schlafzimmer, unter den Kleiderbügeln.</span>
+          <span class="lang-content" data-lang="fr">Couvertures → boîte dans la chambre, située sous les cintres.</span>
+          <span class="lang-content" data-lang="sk">Prikrývky → box v spálni, umiestnený pod vešiakmi.</span>
+        </p>
+        
+        <p>
+          <span class="lang-content active" data-lang="en">🏖 Beach Box – in the main bedroom. We’ve prepared a little beach box especially for you 🌊☀. Inside you’ll find beach essentials to make your seaside time more comfortable and fun, including beach towels, a beach blanket, a beach bag, and goggles. Please feel free to use anything you need during your stay — that’s what it’s there for!</span>
+          <span class="lang-content" data-lang="it">🏖 Beach Box – nella camera da letto principale. Abbiamo preparato una piccola beach box specialmente per te 🌊☀. All’interno troverai l’essenziale per la spiaggia per rendere il tuo tempo al mare più confortevole e divertente: asciugamani da spiaggia, coperta da spiaggia, borsa da spiaggia e occhialini. Sentiti libero di usare tutto ciò di cui hai bisogno durante il tuo soggiorno – è proprio per questo che c’è!</span>
+          <span class="lang-content" data-lang="de">🏖 Strandbox – im Hauptschlafzimmer. Wir haben eine kleine Strandbox speziell für Sie vorbereitet 🌊☀. Darin finden Sie Strandutensilien, die Ihre Zeit am Meer angenehmer und unterhaltsamer machen, darunter Strandhandtücher, eine Stranddecke, eine Strandtasche und eine Schwimmbrille. Sie können alles, was Sie brauchen, während Ihres Aufenthalts gerne nutzen – dafür ist es da!</span>
+          <span class="lang-content" data-lang="fr">🏖 Beach Box – dans la chambre principale. Nous avons préparé une petite beach box spécialement pour vous 🌊☀. À l’intérieur, vous trouverez l’essentiel pour la plage afin de rendre votre séjour au bord de la mer plus confortable et amusant : serviettes de plage, couverture de plage, sac de plage et lunettes de natation. N’hésitez pas à utiliser tout ce dont vous avez besoin pendant votre séjour – c’est pour cela que c’est là !</span>
+          <span class="lang-content" data-lang="sk">🏖 Plážový box – v hlavnej spálni. Pripravili sme pre vás malý plážový box 🌊☀. Vo vnútri nájdete plážové nevyhnutnosti, vďaka ktorým bude váš čas pri mori pohodlnejší a zábavnejší, vrátane plážových uterákov, plážovej deky, plážovej tašky a okuliarov. Neváhajte použiť čokoľvek, čo počas pobytu potrebujete – na to to tam je!</span>
+        </p>
+      </div>
+<!-- LOUNGE – GREY TALL CABINET -->
+<div class="info-card">
+  <h3 class="lang-content active" data-lang="en">🩶 Lounge – Grey Tall Cabinet</h3>
+  <h3 class="lang-content" data-lang="it">🩶 Soggiorno – Armadio Grigio Alto</h3>
+  <h3 class="lang-content" data-lang="de">🩶 Wohnzimmer – Hoher Grauer Schrank</h3>
+  <h3 class="lang-content" data-lang="fr">🩶 Salon – Grande Armoire Grise</h3>
+  <h3 class="lang-content" data-lang="sk">🩶 Obývačka – Vysoká Sivá Skriňa</h3>
+  
+  <div class="lang-content active" data-lang="en">
+    <strong>📦 Top shelf:</strong>
+    <ul>
+      <li>First aid kit</li>
+      <li>Mosquito catcher</li>
+      <li>Battery‑operated flashlight</li>
+    </ul>
+    <strong>📦 Second shelf (in the blue boxes):</strong>
+    <ul>
+      <li>Light bulbs</li>
+      <li>Batteries</li>
+      <li>Second A/C remote</li>
+      <li>Electronic luggage scale</li>
+      <li>Extra essentials</li>
+    </ul>
+    <strong>📦 Third shelf:</strong>
+    <ul>
+      <li>Games</li>
+    </ul>
+    <strong>📦 Bottom shelf:</strong>
+    <ul>
+      <li>Iron</li>
+    </ul>
+  </div>
+  
+  <div class="lang-content" data-lang="it">
+    <strong>📦 Ripiano superiore:</strong>
+    <ul>
+      <li>Kit di pronto soccorso</li>
+      <li>Acchiappazanzare</li>
+      <li>Torcia a batterie</li>
+    </ul>
+    <strong>📦 Secondo ripiano (nelle scatole blu):</strong>
+    <ul>
+      <li>Lampadine</li>
+      <li>Batterie</li>
+      <li>Secondo telecomando del condizionatore</li>
+      <li>Bilancia elettronica per bagagli</li>
+      <li>Extra essenziali</li>
+    </ul>
+    <strong>📦 Terzo ripiano:</strong>
+    <ul>
+      <li>Giochi</li>
+    </ul>
+    <strong>📦 Ripiano inferiore:</strong>
+    <ul>
+      <li>Ferro da stiro</li>
+    </ul>
+  </div>
+  
+  <div class="lang-content" data-lang="de">
+    <strong>📦 Oberes Fach:</strong>
+    <ul>
+      <li>Erste-Hilfe-Set</li>
+      <li>Mückenfalle</li>
+      <li>Batteriebetriebene Taschenlampe</li>
+    </ul>
+    <strong>📦 Zweites Fach (in den blauen Boxen):</strong>
+    <ul>
+      <li>Glühbirnen</li>
+      <li>Batterien</li>
+      <li>Zweite Klimaanlagen‑Fernbedienung</li>
+      <li>Elektronische Kofferwaage</li>
+      <li>Zusätzliche Utensilien</li>
+    </ul>
+    <strong>📦 Drittes Fach:</strong>
+    <ul>
+      <li>Spiele</li>
+    </ul>
+    <strong>📦 Unteres Fach:</strong>
+    <ul>
+      <li>Bügeleisen</li>
+    </ul>
+  </div>
+  
+  <div class="lang-content" data-lang="fr">
+    <strong>📦 Étagère supérieure :</strong>
+    <ul>
+      <li>Trousse de secours</li>
+      <li>Attrape‑moustiques</li>
+      <li>Lampe torche à piles</li>
+    </ul>
+    <strong>📦 Deuxième étagère (dans les boîtes bleues) :</strong>
+    <ul>
+      <li>Ampoules</li>
+      <li>Piles</li>
+      <li>Deuxième télécommande de la climatisation</li>
+      <li>Pèse‑bagage électronique</li>
+      <li>Essentiels supplémentaires</li>
+    </ul>
+    <strong>📦 Troisième étagère :</strong>
+    <ul>
+      <li>Jeux</li>
+    </ul>
+    <strong>📦 Étagère inférieure :</strong>
+    <ul>
+      <li>Fer à repasser</li>
+    </ul>
+  </div>
+  
+  <div class="lang-content" data-lang="sk">
+    <strong>📦 Horná polica:</strong>
+    <ul>
+      <li>Lekárnička</li>
+      <li>Lapač komárov</li>
+      <li>Baterka na batérie</li>
+    </ul>
+    <strong>📦 Druhá polica (v modrých boxoch):</strong>
+    <ul>
+      <li>Žiarovky</li>
+      <li>Batérie</li>
+      <li>Druhý ovládač klimatizácie</li>
+      <li>Elektronická váha na kufre</li>
+      <li>Extra potreby</li>
+    </ul>
+    <strong>📦 Tretia polica:</strong>
+    <ul>
+      <li>Hry</li>
+    </ul>
+    <strong>📦 Spodná polica:</strong>
+    <ul>
+      <li>Žehlička</li>
+    </ul>
+  </div>
+</div>
+   <!-- HALLWAY – GREEN DOUBLE-DOOR CABINET -->
+<div class="info-card">
+  <h3 class="lang-content active" data-lang="en">🧰 Hallway – Green Double-Door Cabinet</h3>
+  <h3 class="lang-content" data-lang="it">🧰 Corridoio – Armadio Verde a Doppia Anta</h3>
+  <h3 class="lang-content" data-lang="de">🧰 Flur – Grüner Doppeltürschrank</h3>
+  <h3 class="lang-content" data-lang="fr">🧰 Couloir – Armoire Verte à Double Porte</h3>
+  <h3 class="lang-content" data-lang="sk">🧰 Chodba – Zelená Dvojkrídlová Skriňa</h3>
+  
+  <div class="lang-content active" data-lang="en">
+    <ul>
+      <li>Ironing board</li>
+      <li>Ladder</li>
+      <li>Beach umbrella</li>
+      <li>Bucket & mop</li>
+      <li>Beach food box</li>
+      <li>Dustpan & broom</li>
+      <li>Exercise mat</li>
+      <li>3× recycling boxes</li>
+    </ul>
+  </div>
+  
+  
+  <div class="lang-content" data-lang="it">
+    <ul>
+      <li>Asse da stiro</li>
+      <li>Scala</li>
+      <li>Ombrellone</li>
+      <li>Secchio e mocio</li>
+      <li>Contenitore per il cibo da spiaggia</li>
+      <li>Paletta e scopa</li>
+      <li>Tappetino da ginnastica</li>
+      <li>3 contenitori per la raccolta differenziata</li>
+    </ul>
+  </div>
+  
+  <div class="lang-content" data-lang="de">
+    <ul>
+      <li>Bügelbrett</li>
+      <li>Leiter</li>
+      <li>Sonnenschirm</li>
+      <li>Eimer & Mopp</li>
+      <li>Strandbox für Essen</li>
+      <li>Kehrblech und Besen</li>
+      <li>Gymnastikmatte</li>
+      <li>3 Recyclingboxen</li>
+    </ul>
+  </div>
+  
+  <div class="lang-content" data-lang="fr">
+    <ul>
+      <li>Planche à repasser</li>
+      <li>Échelle</li>
+      <li>Parasol</li>
+      <li>Seau & serpillière</li>
+      <li>Boîte repas pour la plage</li>
+      <li>Pelle et balai</li>
+      <li>Tapis d’exercice</li>
+      <li>3 bacs de recyclage</li>
+    </ul>
+  </div>
+  
+  <div class="lang-content" data-lang="sk">
+    <ul>
+      <li>Žehliaca doska</li>
+      <li>Rebrík</li>
+      <li>Slnečník</li>
+      <li>Vedro a mop</li>
+      <li>Box na jedlo na pláž</li>
+      <li>Lopatka a metla</li>
+      <li>Podložka na cvičenie</li>
+      <li>3 recyklačné nádoby</li>
+    </ul>
+  </div>
+</div>
+
+      <!-- TV AREA -->
+      <div class="info-card">
+        <h3 class="lang-content active" data-lang="en">📺 TV Area</h3>
+        <h3 class="lang-content" data-lang="it">📺 Zona TV</h3>
+        <h3 class="lang-content" data-lang="de">📺 TV-Bereich</h3>
+        <h3 class="lang-content" data-lang="fr">📺 Zone TV</h3>
+        <h3 class="lang-content" data-lang="sk">📺 Priestor pri TV</h3>
+        
+        <p>
+          <span class="lang-content active" data-lang="en">TV & air-conditioning remotes → top shelf under the TV.</span>
+          <span class="lang-content" data-lang="it">Telecomandi della TV e del condizionatore → ripiano superiore sotto la TV.</span>
+          <span class="lang-content" data-lang="de">TV- & Klimaanlagen-Fernbedienungen → oberes Fach unter dem Fernseher.</span>
+          <span class="lang-content" data-lang="fr">Télécommandes de la TV et de la climatisation → étagère supérieure sous la télévision.</span>
+          <span class="lang-content" data-lang="sk">Ovládače TV a klimatizácie → horná polica pod televízorom.</span>
+        </p>
+        <p>
+          <span class="lang-content active" data-lang="en">Appliance information: Blue folder in the cabinet on your right side under the TV.</span>
+          <span class="lang-content" data-lang="it">Informazioni sugli elettrodomestici: cartella blu nell’armadio alla tua destra sotto la TV.</span>
+          <span class="lang-content" data-lang="de">Geräteinformationen: Blauer Ordner im Schrank auf Ihrer rechten Seite unter dem Fernseher.</span>
+          <span class="lang-content" data-lang="fr">Informations sur les appareils : dossier bleu dans l’armoire sur votre droite sous la télévision.</span>
+          <span class="lang-content" data-lang="sk">Informácie o spotrebičoch: modrý priečinok v skrinke po vašej pravej strane pod televízorom.</span>
+        </p>
+      </div>
+
+      <!-- KITCHEN -->
+      <div class="info-card">
+        <h3 class="lang-content active" data-lang="en">🍽 Kitchen</h3>
+        <h3 class="lang-content" data-lang="it">🍽 Cucina</h3>
+        <h3 class="lang-content" data-lang="de">🍽 Küche</h3>
+        <h3 class="lang-content" data-lang="fr">🍽 Cuisine</h3>
+        <h3 class="lang-content" data-lang="sk">🍽 Kuchyňa</h3>
+        
+        <p>
+          <span class="lang-content active" data-lang="en">Cleaning products → under the kitchen sink.</span>
+          <span class="lang-content" data-lang="it">Prodotti per la pulizia → sotto il lavello della cucina.</span>
+          <span class="lang-content" data-lang="de">Reinigungsprodukte → unter der Küchenspüle.</span>
+          <span class="lang-content" data-lang="fr">Produits d’entretien → sous l’évier de la cuisine.</span>
+          <span class="lang-content" data-lang="sk">Čistiace prostriedky → pod kuchynským drezom.</span>
+        </p>
+        <p>
+          <span class="lang-content active" data-lang="en">Emergency non-drinkable water → bottom drawer.</span>
+          <span class="lang-content" data-lang="it">Acqua di emergenza non potabile → cassetto inferiore.</span>
+          <span class="lang-content" data-lang="de">Notwasser (nicht trinkbar) → untere Schublade.</span>
+          <span class="lang-content" data-lang="fr">Eau de secours non potable → tiroir du bas.</span>
+          <span class="lang-content" data-lang="sk">Núdzová nepitná voda → spodná zásuvka.</span>
+        </p>
+      </div>
+    </div>
+<!-- SAFETY & EMERGENCY EQUIPMENT -->
+<div class="info-card">
+  <h3 class="lang-content active" data-lang="en">🛡️ Safety & Emergency Equipment</h3>
+  <h3 class="lang-content" data-lang="it">🛡️ Attrezzature di Sicurezza e Emergenza</h3>
+  <h3 class="lang-content" data-lang="de">🛡️ Sicherheits- und Notfallausrüstung</h3>
+  <h3 class="lang-content" data-lang="fr">🛡️ Équipement de Sécurité et d'Urgence</h3>
+  <h3 class="lang-content" data-lang="sk">🛡️ Bezpečnostné a Núdzové Vybavenie</h3>
+
+  <div class="lang-content active" data-lang="en">
+    <ul>
+      <li><strong>❶ First Aid Kit</strong> – Located in the grey cupboard in the lounge, on the top closed shelf. Contains basic medical supplies for minor injuries.</li>
+      <li><strong>❷ Fire Extinguisher</strong> – Located in the hallway, easily accessible in case of emergency.</li>
+      <li><strong>❸ Fire Exit</strong> – The main apartment entrance door serves as the designated fire exit.</li>
+      <li><strong>❹ Fuse Box</strong> – Located in the hallway, inside the green wardrobe on the right-hand wall.</li>
+      <li><strong>❺ Water Shut‑Off Valve</strong> – To access it: open the kitchen window and mosquito net. The shut‑off tap is fixed to the wall.</li>
+    </ul>
+  </div>
+
+  <div class="lang-content" data-lang="it">
+    <ul>
+      <li><strong>❶ Kit di Pronto Soccorso</strong> – Si trova nell'armadio grigio del soggiorno, sul ripiano chiuso superiore. Contiene forniture mediche di base per piccole ferite.</li>
+      <li><strong>❷ Estintore</strong> – Si trova nel corridoio, facilmente accessibile in caso di emergenza.</li>
+      <li><strong>❸ Uscita di Emergenza</strong> – La porta d'ingresso principale dell'appartamento funge da uscita di emergenza designata.</li>
+      <li><strong>❹ Quadro Elettrico</strong> – Si trova nel corridoio, dentro l'armadio verde sulla parete destra.</li>
+      <li><strong>❺ Valvola di Intercettazione dell'Acqua</strong> – Per accedervi: apri la finestra della cucina e la zanzariera. Il rubinetto di intercettazione è fissato al muro.</li>
+    </ul>
+  </div>
+
+  <div class="lang-content" data-lang="de">
+    <ul>
+      <li><strong>❶ Erste-Hilfe-Set</strong> – Befindet sich im grauen Schrank im Wohnzimmer, im oberen geschlossenen Fach. Enthält grundlegende medizinische Utensilien für kleinere Verletzungen.</li>
+      <li><strong>❷ Feuerlöscher</strong> – Befindet sich im Flur, im Notfall leicht zugänglich.</li>
+      <li><strong>❸ Notausgang</strong> – Die Haupteingangstür der Wohnung dient als ausgewiesener Notausgang.</li>
+      <li><strong>❹ Sicherungskasten</strong> – Befindet sich im Flur, im grünen Schrank an der rechten Wand.</li>
+      <li><strong>❺ Wasserabsperrventil</strong> – So gelangen Sie daran: Öffnen Sie das Küchenfenster und das Moskitonetz. Das Absperrventil ist an der Wand befestigt.</li>
+    </ul>
+  </div>
+
+  <div class="lang-content" data-lang="fr">
+    <ul>
+      <li><strong>❶ Trousse de premiers secours</strong> – Située dans l'armoire grise du salon, sur l'étagère fermée du haut. Contient du matériel médical de base pour les blessures mineures.</li>
+      <li><strong>❷ Extincteur</strong> – Situé dans le couloir, facilement accessible en cas d'urgence.</li>
+      <li><strong>❸ Issue de secours</strong> – La porte d'entrée principale de l'appartement sert d'issue de secours désignée.</li>
+      <li><strong>❹ Tableau électrique</strong> – Situé dans le couloir, à l'intérieur de l'armoire verte sur le mur de droite.</li>
+      <li><strong>❺ Vanne d'arrêt d'eau</strong> – Pour y accéder : ouvrez la fenêtre de la cuisine et la moustiquaire. Le robinet d'arrêt est fixé au mur.</li>
+    </ul>
+  </div>
+
+  <div class="lang-content" data-lang="sk">
+    <ul>
+      <li><strong>❶ Lekárnička prvej pomoci</strong> – Nachádza sa v sivej skrini v obývačke, na hornej uzavretej poličke. Obsahuje základné zdravotnícke potreby na drobné zranenia.</li>
+      <li><strong>❷ Hasiaci prístroj</strong> – Nachádza sa na chodbe, ľahko dostupný v prípade núdze.</li>
+      <li><strong>❸ Núdzový východ</strong> – Hlavné vchodové dvere apartmánu slúžia ako určený núdzový východ.</li>
+      <li><strong>❹ Rozvádzač</strong> – Nachádza sa na chodbe, vo vnútri zelenej skrine na pravej stene.</li>
+      <li><strong>❺ Uzavierací ventil vody</strong> – Ako sa k nemu dostať: otvorte kuchynské okno a sieťku proti hmyzu. Uzavierací ventil je pripevnený na stene.</li>
+    </ul>
+  </div>
+</div>
+    <!-- BEACH BOX INSTRUCTION (updated "do not return" message) -->
+    <div class="alert-modern alert-success">
+      <i class="fas fa-umbrella-beach"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">🏖 Beach Box – Important</strong>
+        <strong class="lang-content" data-lang="it">🏖 Beach Box – Importante</strong>
+        <strong class="lang-content" data-lang="de">🏖 Strandbox – Wichtig</strong>
+        <strong class="lang-content" data-lang="fr">🏖 Beach Box – Important</strong>
+        <strong class="lang-content" data-lang="sk">🏖 Plážový box – Dôležité</strong>
+        <br>
+      <span class="lang-content active" data-lang="en">After use, please do not return items to the box. Leave them in the shower with the used towels so we can wash them properly.</span>
+<span class="lang-content" data-lang="it">Dopo l'uso, non riporre gli oggetti nella scatola. Lasciali nella doccia con gli asciugamani usati così potremo lavarli correttamente.</span>
+<span class="lang-content" data-lang="de">Bitte legen Sie die Gegenstände nach Gebrauch nicht zurück in die Box. Lassen Sie sie mit den gebrauchten Handtüchern in der Dusche, damit wir sie ordentlich waschen können.</span>
+<span class="lang-content" data-lang="fr">Après utilisation, veuillez ne pas remettre les objets dans la boîte. Laissez-les dans la douche avec les serviettes usagées afin que nous puissions les laver correctement.</span>
+<span class="lang-content" data-lang="sk">Po použití prosím nevracajte veci späť do boxu. Nechajte ich v sprche spolu s použitými uterákmi, aby sme ich mohli poriadne vyprať.</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  <!-- RECYCLING & WASTE -->
+ <!-- RECYCLING & WASTE (fully updated) -->
+<div class="chapter-card" id="recycling">
+  <div class="chapter-header">
+    <div class="chapter-icon">♻️</div>
+    <div class="chapter-title lang-content active" data-lang="en">Recycling & Waste</div>
+    <div class="chapter-title lang-content" data-lang="it">Raccolta Differenziata & Rifiuti</div>
+    <div class="chapter-title lang-content" data-lang="de">Recycling & Mülltrennung</div>
+    <div class="chapter-title lang-content" data-lang="fr">Recyclage & Déchets</div>
+    <div class="chapter-title lang-content" data-lang="sk">Recyklácia & Odpad</div>
+  </div>
+  <div class="chapter-body">
+
+    <!-- COLLECTION INFO -->
+    <div class="alert-modern alert-success">
+      <i class="fas fa-trash-alt"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">♻️ Collection every evening from 20:00</strong>
+        <strong class="lang-content" data-lang="it">♻️ Raccolta ogni sera dalle 20:00</strong>
+        <strong class="lang-content" data-lang="de">♻️ Abholung jeden Abend ab 20:00</strong>
+        <strong class="lang-content" data-lang="fr">♻️ Collecte chaque soir à partir de 20h00</strong>
+        <strong class="lang-content" data-lang="sk">♻️ Zber každý večer od 20:00</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Place recycling bins or transparent plastic bags outside the main door, near the plant.</span>
+        <span class="lang-content" data-lang="it">Posizionare i contenitori o i sacchetti trasparenti fuori dalla porta principale, vicino alla pianta.</span>
+        <span class="lang-content" data-lang="de">Stellen Sie die Recyclingbehälter oder durchsichtigen Plastiksäcke vor die Haupttür, neben die Pflanze.</span>
+        <span class="lang-content" data-lang="fr">Placez les bacs de recyclage ou sacs transparents devant la porte principale, près de la plante.</span>
+        <span class="lang-content" data-lang="sk">Umiestnite recyklovateľné koše alebo priehľadné plastové vrecia pred hlavné dvere, pri rastline.</span>
+      </div>
+    </div>
+
+    <!-- WEEKLY SCHEDULE TABLE -->
+    <div class="lang-content active" data-lang="en">
+      <table class="waste-table">
+        <thead>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+</thead>
+        <tbody><tr><td>🟡 Plastic/Metal</td><td>🟤 Organic</td><td>⚪ Paper</td><td>🟤 Organic</td><td>⚫ Non-recyclable</td><td>—</td><td>🟤 Organic+🟢 Glass</td></tr></tbody>
+      </table>
+    </div>
+    <div class="lang-content" data-lang="it">
+      <table class="waste-table">
+        <thead><tr><th>Lunedì</th><th>Martedì</th><th>Mercoledì</th><th>Giovedì</th><th>Venerdì</th><th>Sabato</th><th>Domenica</th></tr></thead>
+        <tbody><tr><td>🟡 Plastica/Metallo</td><td>🟤 Organico</td><td>⚪ Carta</td><td>🟤 Organico</td><td>⚫ Non riciclabile</td><td>—</td><td>🟤 Organico+🟢 Vetro</td></tr></tbody>
+      </table>
+    </div>
+    <div class="lang-content" data-lang="de">
+      <table class="waste-table">
+        <thead><tr><th>Montag</th><th>Dienstag</th><th>Mittwoch</th><th>Donnerstag</th><th>Freitag</th><th>Samstag</th><th>Sonntag</th></tr></thead>
+        <tbody><tr><td>🟡 Plastik/Metall</td><td>🟤 Biomüll</td><td>⚪ Papier</td><td>🟤 Biomüll</td><td>⚫ Nicht recycelbar</td><td>—</td><td>🟤 Biomüll+🟢 Glas</td></tr></tbody>
+      </table>
+    </div>
+    <div class="lang-content" data-lang="fr">
+      <table class="waste-table">
+        <thead><tr><th>Lundi</th><th>Mardi</th><th>Mercredi</th><th>Jeudi</th><th>Vendredi</th><th>Samedi</th><th>Dimanche</th></tr></thead>
+        <tbody><tr><td>🟡 Plastique/Métal</td><td>🟤 Organique</td><td>⚪ Papier</td><td>🟤 Organique</td><td>⚫ Non recyclable</td><td>—</td><td>🟤 Organique+🟢 Verre</td></tr></tbody>
+      </table>
+    </div>
+    <div class="lang-content" data-lang="sk">
+      <table class="waste-table">
+        <thead><tr><th>Pondelok</th><th>Utorok</th><th>Streda</th><th>Štvrtok</th><th>Piatok</th><th>Sobota</th><th>Nedeľa</th></tr></thead>
+        <tbody><tr><td>🟡 Plasty/Kovy</td><td>🟤 Organický</td><td>⚪ Papier</td><td>🟤 Organický</td><td>⚫ Nerecyklovateľný</td><td>—</td><td>🟤 Organický+🟢 Sklo</td></tr></tbody>
+      </table>
+    </div>
+
+    <!-- WHERE TO FIND THE BINS (inside the apartment) -->
+  <div class="bins-location-card">
+  <div class="bins-location-header">
+    <div class="bins-location-icon">🗑️</div>
+    <div class="bins-location-title lang-content active" data-lang="en">Where to find the bins inside the apartment</div>
+    <div class="bins-location-title lang-content" data-lang="it">Dove trovare i contenitori all'interno dell'appartamento</div>
+    <div class="bins-location-title lang-content" data-lang="de">Wo die Behälter in der Wohnung sind</div>
+    <div class="bins-location-title lang-content" data-lang="fr">Où trouver les bacs dans l'appartement</div>
+    <div class="bins-location-title lang-content" data-lang="sk">Kde nájsť koše v apartmáne</div>
+  </div>
+
+  <!-- LONG TERM SECTION -->
+  <h3 class="lang-content active" data-lang="en" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">For long term</h3>
+  <h3 class="lang-content" data-lang="it" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Per lungo termine</h3>
+  <h3 class="lang-content" data-lang="de" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Langfristig</h3>
+  <h3 class="lang-content" data-lang="fr" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Pour long terme</h3>
+  <h3 class="lang-content" data-lang="sk" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Na dlhodobé použitie</h3>
+
+  <div class="bins-location-grid">
+    <!-- Organic + Plastic/Metal -->
+    <div class="bin-location-item">
+      <div class="bin-location-emoji">🗑️</div>
+      <div>
+        <div class="lang-content active" data-lang="en">🟤 Organic & 🟡 Plastic/Metal</div>
+        <div class="lang-content" data-lang="it">🟤 Organico & 🟡 Plastica/Metallo</div>
+        <div class="lang-content" data-lang="de">🟤 Biomüll & 🟡 Plastik/Metall</div>
+        <div class="lang-content" data-lang="fr">🟤 Organique & 🟡 Plastique/Métal</div>
+        <div class="lang-content" data-lang="sk">🟤 Organický & 🟡 Plasty/Kovy</div>
+        <div class="bin-location-place">
+          <i class="fas fa-utensils"></i>
+          <span class="lang-content active" data-lang="en">Under the kitchen induction hob</span>
+          <span class="lang-content" data-lang="it">Sotto il piano a induzione in cucina</span>
+          <span class="lang-content" data-lang="de">Unter dem Induktionskochfeld</span>
+          <span class="lang-content" data-lang="fr">Sous la plaque à induction</span>
+          <span class="lang-content" data-lang="sk">Pod indukčnou varnou doskou</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paper, Glass, Non-recyclable -->
+    <div class="bin-location-item">
+      <div class="bin-location-emoji">🧺</div>
+      <div>
+        <div class="lang-content active" data-lang="en">⚪ Paper, 🟢 Glass, ⚫ Non-recyclable</div>
+        <div class="lang-content" data-lang="it">⚪ Carta, 🟢 Vetro, ⚫ Non riciclabile</div>
+        <div class="lang-content" data-lang="de">⚪ Papier, 🟢 Glas, ⚫ Nicht recycelbar</div>
+        <div class="lang-content" data-lang="fr">⚪ Papier, 🟢 Verre, ⚫ Non recyclable</div>
+        <div class="lang-content" data-lang="sk">⚪ Papier, 🟢 Sklo, ⚫ Nerecyklovateľný</div>
+        <div class="bin-location-place">
+          <i class="fas fa-cabinet"></i>
+          <span class="lang-content active" data-lang="en">Green cabinet in the hallway</span>
+          <span class="lang-content" data-lang="it">Armadio verde in corridoio</span>
+          <span class="lang-content" data-lang="de">Grüner Schrank im Flur</span>
+          <span class="lang-content" data-lang="fr">Armoire verte dans le couloir</span>
+          <span class="lang-content" data-lang="sk">Zelená skriňa v chodbe</span>
+        </div>
+      </div>
+    </div>
+  </div> <!-- end long-term grid -->
+
+  <!-- SHORT TERM SECTION -->
+  <h3 class="lang-content active" data-lang="en" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">For short term</h3>
+  <h3 class="lang-content" data-lang="it" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Per breve periodo</h3>
+  <h3 class="lang-content" data-lang="de" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Kurzfristig</h3>
+  <h3 class="lang-content" data-lang="fr" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Pour court séjour</h3>
+  <h3 class="lang-content" data-lang="sk" style="font-family: 'Playfair Display', serif; margin: 1.5rem 0 1rem 0; color: var(--accent-sea);">Na krátkodobé použitie</h3>
+
+  <div class="bins-location-grid">
+    <div class="bin-location-item">
+      <div class="bin-location-emoji">🗑️</div>
+      <div>
+        <div class="lang-content active" data-lang="en">You will find small white bins here.</div>
+        <div class="lang-content" data-lang="it">Qui troverai piccoli bidoni bianchi.</div>
+        <div class="lang-content" data-lang="de">Hier finden Sie kleine weiße Behälter.</div>
+        <div class="lang-content" data-lang="fr">Vous trouverez ici de petites poubelles blanches.</div>
+        <div class="lang-content" data-lang="sk">Nájdete tu malé biele nádoby.</div>
+        <div class="bin-location-place">
+          <i class="fas fa-utensils"></i>
+          <span class="lang-content active" data-lang="en">On the left side of the kitchen.</span>
+          <span class="lang-content" data-lang="it">Sul lato sinistro della cucina.</span>
+          <span class="lang-content" data-lang="de">Auf der linken Seite der Küche.</span>
+          <span class="lang-content" data-lang="fr">Sur le côté gauche de la cuisine.</span>
+          <span class="lang-content" data-lang="sk">Na ľavej strane kuchyne.</span>
+        </div>
+      </div>
+    </div>
+     <div class="bin-location-item">
+      <div class="bin-location-emoji">🗑️</div>
+      <div>
+        <div class="lang-content active" data-lang="en">🟤 Organic & 🟡 Plastic/Metal</div>
+        <div class="lang-content" data-lang="it">🟤 Organico & 🟡 Plastica/Metallo</div>
+        <div class="lang-content" data-lang="de">🟤 Biomüll & 🟡 Plastik/Metall</div>
+        <div class="lang-content" data-lang="fr">🟤 Organique & 🟡 Plastique/Métal</div>
+        <div class="lang-content" data-lang="sk">🟤 Organický & 🟡 Plasty/Kovy</div>
+        <div class="bin-location-place">
+          <i class="fas fa-utensils"></i>
+          <span class="lang-content active" data-lang="en">Under the kitchen induction hob</span>
+          <span class="lang-content" data-lang="it">Sotto il piano a induzione in cucina</span>
+          <span class="lang-content" data-lang="de">Unter dem Induktionskochfeld</span>
+          <span class="lang-content" data-lang="fr">Sous la plaque à induction</span>
+          <span class="lang-content" data-lang="sk">Pod indukčnou varnou doskou</span>
+        </div>
+      </div>
+    </div>
+
+ 
+  </div> <!-- end short-term grid -->
+
+</div> <!-- end bins-location-card -->
+    <!-- HOW TO SEPARATE WASTE CORRECTLY (cards) -->
+    <h3 class="lang-content active" data-lang="en">📋 How to Separate Waste Correctly</h3>
+    <h3 class="lang-content" data-lang="it">📋 Come Separare Correttamente i Rifiuti</h3>
+    <h3 class="lang-content" data-lang="de">📋 Richtige Mülltrennung</h3>
+    <h3 class="lang-content" data-lang="fr">📋 Comment Bien Trier les Déchets</h3>
+    <h3 class="lang-content" data-lang="sk">📋 Ako správne triediť odpad</h3>
+
+    <div class="find-grid">
+      <!-- Organic -->
+      <div class="find-card">
+        <div class="fc-room lang-content active" data-lang="en">🟤 Organic</div>
+        <div class="fc-room lang-content" data-lang="it">🟤 Organico</div>
+        <div class="fc-room lang-content" data-lang="de">🟤 Biomüll</div>
+        <div class="fc-room lang-content" data-lang="fr">🟤 Déchets Organiques</div>
+        <div class="fc-room lang-content" data-lang="sk">🟤 Organický odpad</div>
+        <div class="fc-items lang-content active" data-lang="en">Food waste only. Use <strong>bioplastic/compostable bags</strong> only.</div>
+        <div class="fc-items lang-content" data-lang="it">Solo scarti alimentari. Usare esclusivamente <strong>sacchetti compostabili</strong>.</div>
+        <div class="fc-items lang-content" data-lang="de">Nur Lebensmittelabfälle. Bitte nur <strong>kompostierbare Beutel</strong> verwenden.</div>
+        <div class="fc-items lang-content" data-lang="fr">Déchets alimentaires seulement. Utilisez uniquement des <strong>sacs compostables</strong>.</div>
+        <div class="fc-items lang-content" data-lang="sk">Iba zvyšky jedla. Používajte len <strong>kompostovateľné vrecká</strong>.</div>
+      </div>
+      <!-- Plastic & Metal -->
+      <div class="find-card">
+        <div class="fc-room lang-content active" data-lang="en">🟡 Plastic & Metal</div>
+        <div class="fc-room lang-content" data-lang="it">🟡 Plastica e Metallo</div>
+        <div class="fc-room lang-content" data-lang="de">🟡 Plastik & Metall</div>
+        <div class="fc-room lang-content" data-lang="fr">🟡 Plastique & Métal</div>
+        <div class="fc-room lang-content" data-lang="sk">🟡 Plasty a Kovy</div>
+        <div class="fc-items lang-content active" data-lang="en">Bottles, cans, tins, and packaging. <strong>Rinse if possible</strong>.</div>
+        <div class="fc-items lang-content" data-lang="it">Bottiglie, lattine, contenitori e imballaggi. <strong>Sciacquare se possibile</strong>.</div>
+        <div class="fc-items lang-content" data-lang="de">Flaschen, Dosen und Verpackungen. <strong>Wenn möglich ausspülen</strong>.</div>
+        <div class="fc-items lang-content" data-lang="fr">Bouteilles, canettes et emballages. <strong>Rincer si possible</strong>.</div>
+        <div class="fc-items lang-content" data-lang="sk">Fľaše, plechovky a obaly. <strong>Ak je to možné, opláchnite</strong>.</div>
+      </div>
+      <!-- Paper & Cardboard -->
+      <div class="find-card">
+        <div class="fc-room lang-content active" data-lang="en">⚪ Paper & Cardboard</div>
+        <div class="fc-room lang-content" data-lang="it">⚪ Carta e Cartone</div>
+        <div class="fc-room lang-content" data-lang="de">⚪ Papier & Pappe</div>
+        <div class="fc-room lang-content" data-lang="fr">⚪ Papier & Carton</div>
+        <div class="fc-room lang-content" data-lang="sk">⚪ Papier a Lepenka</div>
+        <div class="fc-items lang-content active" data-lang="en">Clean paper and flattened boxes. <strong>No pizza boxes with food residue</strong>.</div>
+        <div class="fc-items lang-content" data-lang="it">Carta pulita e cartoni schiacciati. <strong>No cartoni della pizza sporchi</strong>.</div>
+        <div class="fc-items lang-content" data-lang="de">Sauberes Papier und flache Kartons. <strong>Keine schmutzigen Pizzakartons</strong>.</div>
+        <div class="fc-items lang-content" data-lang="fr">Papier propre et cartons à plat. <strong>Pas de cartons de pizza sales</strong>.</div>
+        <div class="fc-items lang-content" data-lang="sk">Čistý papier a krabice. <strong>Nie znečistené krabice od pizze</strong>.</div>
+      </div>
+      <!-- Glass -->
+      <div class="find-card">
+        <div class="fc-room lang-content active" data-lang="en">🟢 Glass</div>
+        <div class="fc-room lang-content" data-lang="it">🟢 Vetro</div>
+        <div class="fc-room lang-content" data-lang="de">🟢 Glas</div>
+        <div class="fc-room lang-content" data-lang="fr">🟢 Verre</div>
+        <div class="fc-room lang-content" data-lang="sk">🟢 Sklo</div>
+        <div class="fc-items lang-content active" data-lang="en">Bottles and jars. <strong>No ceramics or light bulbs</strong>.</div>
+        <div class="fc-items lang-content" data-lang="it">Bottiglie e vasetti. <strong>No ceramica o lampadine</strong>.</div>
+        <div class="fc-items lang-content" data-lang="de">Flaschen und Gläser. <strong>Kein Porzellan oder Glühbirnen</strong>.</div>
+        <div class="fc-items lang-content" data-lang="fr">Bouteilles et bocaux. <strong>Pas de céramique ni d'ampoules</strong>.</div>
+        <div class="fc-items lang-content" data-lang="sk">Fľaše a poháre. <strong>Nie keramika ani žiarovky</strong>.</div>
+      </div>
+    </div>
+
+    <!-- FINES WARNING -->
+    <div class="alert-modern alert-critical">
+      <i class="fas fa-gavel"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">⚠️ IMPORTANT — FINES APPLY</strong>
+        <strong class="lang-content" data-lang="it">⚠️ IMPORTANTE — MULTE APPLICABILI</strong>
+        <strong class="lang-content" data-lang="de">⚠️ WICHTIG — GELDER KÖNNEN VERHÄNGT WERDEN</strong>
+        <strong class="lang-content" data-lang="fr">⚠️ IMPORTANT — DES AMENDES S'APPLIQUENT</strong>
+        <strong class="lang-content" data-lang="sk">⚠️ DÔLEŽITÉ — HROZIA POKUTY</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Waste is only collected in official coloured municipal bins or transparent plastic bags. Do not mix types — improper separation may result in a fine from the municipality.</span>
+        <span class="lang-content" data-lang="it">I rifiuti vengono raccolti solo nei contenitori comunali ufficiali o sacchetti trasparenti. Non mescolare tipi — la separazione errata può comportare una multa dal comune.</span>
+        <span class="lang-content" data-lang="de">Müll wird nur in offiziellen farbigen Behältern oder durchsichtigen Säcken abgeholt. Nicht mischen — falsche Trennung kann zu Bußgeldern führen.</span>
+        <span class="lang-content" data-lang="fr">Les déchets ne sont collectés que dans les bacs municipaux officiels ou sacs transparents. Ne pas mélanger — un tri incorrect peut entraîner une amende.</span>
+        <span class="lang-content" data-lang="sk">Odpad sa zbiera iba v oficiálnych farebných nádobách alebo priehľadných plastových vreciach. Nemiešajte typy — nesprávne triedenie môže viesť k pokute od obce.</span>
+      </div>
+    </div>
+
+    <!-- BRING BINS BACK INSIDE -->
+    <div class="alert-modern alert-warning">
+      <i class="fas fa-undo-alt"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">🔁 Bring bins back inside</strong>
+        <strong class="lang-content" data-lang="it">🔁 Riportate i contenitori dentro</strong>
+        <strong class="lang-content" data-lang="de">🔁 Behälter wieder hereinbringen</strong>
+        <strong class="lang-content" data-lang="fr">🔁 RENTRER LES BACS</strong>
+        <strong class="lang-content" data-lang="sk">🔁 Vráťte koše naspäť</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Please bring the bins back inside the following morning after collection. Thank you!</span>
+        <span class="lang-content" data-lang="it">Riportate i contenitori dentro la mattina successiva dopo la raccolta. Grazie!</span>
+        <span class="lang-content" data-lang="de">Bitte bringen Sie die Behälter am nächsten Morgen nach der Leerung wieder herein. Danke!</span>
+        <span class="lang-content" data-lang="fr">Veuillez rentrer les bacs le lendemain matin après la collecte. Merci !</span>
+        <span class="lang-content" data-lang="sk">Prosím, vráťte koše naspäť dovnútra nasledujúce ráno po zbere. Ďakujeme!</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+ <!-- HOUSE RULES (fully updated) -->
+<div class="chapter-card" id="rules">
+  <div class="chapter-header">
+    <div class="chapter-icon">📜</div>
+    <div class="chapter-title lang-content active" data-lang="en">House Rules</div>
+    <div class="chapter-title lang-content" data-lang="it">Regole della Casa</div>
+    <div class="chapter-title lang-content" data-lang="de">Hausregeln</div>
+    <div class="chapter-title lang-content" data-lang="fr">Règles de la Maison</div>
+    <div class="chapter-title lang-content" data-lang="sk">Domové Pravidlá</div>
+  </div>
+  <div class="chapter-body">
+    <div class="grid-3">
+      
+      <!-- No Smoking -->
+      <div class="info-card">
+        <i class="fas fa-smoking-ban"></i>
+        <h3 class="lang-content active" data-lang="en">No Smoking</h3>
+        <h3 class="lang-content" data-lang="it">Vietato Fumare</h3>
+        <h3 class="lang-content" data-lang="de">Rauchen Verboten</h3>
+        <h3 class="lang-content" data-lang="fr">Interdiction de Fumer</h3>
+        <h3 class="lang-content" data-lang="sk">Zákaz Fajčenia</h3>
+        <div class="lang-content active" data-lang="en">🚭 Smoking is strictly prohibited inside the apartment.</div>
+        <div class="lang-content" data-lang="it">🚭 È severamente vietato fumare all'interno dell'appartamento.</div>
+        <div class="lang-content" data-lang="de">🚭 Rauchen in der Wohnung ist strengstens verboten.</div>
+        <div class="lang-content" data-lang="fr">🚭 Il est strictement interdit de fumer dans l'appartement.</div>
+        <div class="lang-content" data-lang="sk">🚭 Fajčenie v apartmáne je prísne zakázané.</div>
+      </div>
+
+      <!-- Quiet Hours -->
+      <div class="info-card">
+        <i class="fas fa-volume-mute"></i>
+        <h3 class="lang-content active" data-lang="en">Quiet Hours</h3>
+        <h3 class="lang-content" data-lang="it">Orari di Silenzio</h3>
+        <h3 class="lang-content" data-lang="de">Ruhezeiten</h3>
+        <h3 class="lang-content" data-lang="fr">Heures de Silence</h3>
+        <h3 class="lang-content" data-lang="sk">Nočný Kľud</h3>
+        <div class="lang-content active" data-lang="en">🔕 Keep noise to a minimum between 23:00 and 07:00.</div>
+        <div class="lang-content" data-lang="it">🔕 Mantenere il rumore al minimo tra le 23:00 e le 07:00.</div>
+        <div class="lang-content" data-lang="de">🔕 Bitte halten Sie zwischen 23:00 und 07:00 Uhr die Nachtruhe ein.</div>
+        <div class="lang-content" data-lang="fr">🔕 Maintenir le bruit au minimum entre 23h00 et 7h00.</div>
+        <div class="lang-content" data-lang="sk">🔕 Minimalizujte hluk medzi 23:00 a 7:00.</div>
+      </div>
+
+      <!-- No Pets -->
+      <div class="info-card">
+        <i class="fas fa-dog"></i>
+        <h3 class="lang-content active" data-lang="en">No Pets</h3>
+        <h3 class="lang-content" data-lang="it">Animali Non Ammessi</h3>
+        <h3 class="lang-content" data-lang="de">Keine Haustiere</h3>
+        <h3 class="lang-content" data-lang="fr">Pas d'Animaux</h3>
+        <h3 class="lang-content" data-lang="sk">Žiadne Domáce Zvieratá</h3>
+        <div class="lang-content active" data-lang="en">🐾 Pets are not allowed in the property.</div>
+        <div class="lang-content" data-lang="it">🐾 Gli animali domestici non sono ammessi nella struttura.</div>
+        <div class="lang-content" data-lang="de">🐾 Haustiere sind in der Unterkunft nicht erlaubt.</div>
+        <div class="lang-content" data-lang="fr">🐾 Les animaux domestiques ne sont pas autorisés dans la propriété.</div>
+        <div class="lang-content" data-lang="sk">🐾 Domáce zvieratá nie sú v objekte povolené.</div>
+      </div>
+
+      <!-- Energy Saving -->
+      <div class="info-card">
+        <i class="fas fa-leaf"></i>
+        <h3 class="lang-content active" data-lang="en">Energy Saving</h3>
+        <h3 class="lang-content" data-lang="it">Risparmio Energetico</h3>
+        <h3 class="lang-content" data-lang="de">Energie Sparen</h3>
+        <h3 class="lang-content" data-lang="fr">Économies d'Énergie</h3>
+        <h3 class="lang-content" data-lang="sk">Úspora Energie</h3>
+        <div class="lang-content active" data-lang="en">💡 Turn off air conditioning and lights whenever you go out.</div>
+        <div class="lang-content" data-lang="it">💡 Spegnere aria condizionata e luci quando si esce.</div>
+        <div class="lang-content" data-lang="de">💡 Schalten Sie die Klimaanlage und Lichter aus, wenn Sie das Haus verlassen.</div>
+        <div class="lang-content" data-lang="fr">💡 Éteindre la climatisation et les lumières en sortant.</div>
+        <div class="lang-content" data-lang="sk">💡 Vypnite klimatizáciu a svetlá vždy keď odchádzate.</div>
+      </div>
+
+      <!-- General Rules (no parties, registered guests) -->
+      <div class="info-card">
+        <i class="fas fa-users-slash"></i>
+        <h3 class="lang-content active" data-lang="en">General Rules</h3>
+        <h3 class="lang-content" data-lang="it">Regole Generali</h3>
+        <h3 class="lang-content" data-lang="de">Allgemeine Regeln</h3>
+        <h3 class="lang-content" data-lang="fr">Règles Générales</h3>
+        <h3 class="lang-content" data-lang="sk">Všeobecné Pravidlá</h3>
+        <div class="lang-content active" data-lang="en">
+          🚫 No parties or events allowed.<br>
+          👥 Only registered guests listed on the reservation are allowed to stay overnight.
+        </div>
+        <div class="lang-content" data-lang="it">
+          🚫 Non sono consentite feste o eventi.<br>
+          👥 Solo gli ospiti registrati nella prenotazione possono pernottare.
+        </div>
+        <div class="lang-content" data-lang="de">
+          🚫 Keine Partys oder Veranstaltungen erlaubt.<br>
+          👥 Nur die in der Buchung aufgeführten registrierten Gäste dürfen übernachten.
+        </div>
+        <div class="lang-content" data-lang="fr">
+          🚫 Pas de fêtes ni d'événements autorisés.<br>
+          👥 Seuls les clients enregistrés sur la réservation sont autorisés à passer la nuit.
+        </div>
+        <div class="lang-content" data-lang="sk">
+          🚫 Žiadne večierky ani podujatia nie sú povolené.<br>
+          👥 Iba registrovaní hostia uvedení v rezervácii môžu zostať cez noc.
+        </div>
+      </div>
+
+      <!-- Cleanliness & Respect -->
+      <div class="info-card">
+        <i class="fas fa-broom"></i>
+        <h3 class="lang-content active" data-lang="en">Cleanliness & Respect</h3>
+        <h3 class="lang-content" data-lang="it">Pulizia e Rispetto</h3>
+        <h3 class="lang-content" data-lang="de">Sauberkeit & Respekt</h3>
+        <h3 class="lang-content" data-lang="fr">Propreté & Respect</h3>
+        <h3 class="lang-content" data-lang="sk">Čistota & Rešpekt</h3>
+        <div class="lang-content active" data-lang="en">
+          🏡 Please treat the home with care.<br>
+          🍽️ Wash dishes after use and take out trash following the waste manual.
+        </div>
+        <div class="lang-content" data-lang="it">
+          🏡 Tratta la casa con cura.<br>
+          🍽️ Lava i piatti dopo l'uso e porta fuori la spazzatura seguendo il manuale dei rifiuti.
+        </div>
+        <div class="lang-content" data-lang="de">
+          🏡 Bitte behandeln Sie das Zuhause mit Sorgfalt.<br>
+          🍽️ Spülen Sie das Geschirr nach Gebrauch und bringen Sie den Müll gemäß der Abfallanleitung raus.
+        </div>
+        <div class="lang-content" data-lang="fr">
+          🏡 Veuillez prendre soin du logement.<br>
+          🍽️ Faites la vaisselle après utilisation et sortez les poubelles en suivant le manuel des déchets.
+        </div>
+        <div class="lang-content" data-lang="sk">
+          🏡 Starajte sa o domov s láskou.<br>
+          🍽️ Umývajte riad po použití a vynášajte odpad podľa manuálu o odpadoch.
+        </div>
+      </div>
+
+      <!-- Safety -->
+      <div class="info-card">
+        <i class="fas fa-shield-alt"></i>
+        <h3 class="lang-content active" data-lang="en">Safety</h3>
+        <h3 class="lang-content" data-lang="it">Sicurezza</h3>
+        <h3 class="lang-content" data-lang="de">Sicherheit</h3>
+        <h3 class="lang-content" data-lang="fr">Sécurité</h3>
+        <h3 class="lang-content" data-lang="sk">Bezpečnosť</h3>
+        <div class="lang-content active" data-lang="en">
+          🔐 Always lock the door when leaving.<br>
+          🪟 Keep windows and balcony doors closed when not in use.
+        </div>
+        <div class="lang-content" data-lang="it">
+          🔐 Chiudi sempre la porta quando esci.<br>
+          🪟 Tieni chiuse finestre e porte del balcone quando non sono in uso.
+        </div>
+        <div class="lang-content" data-lang="de">
+          🔐 Schließen Sie die Tür immer ab, wenn Sie das Haus verlassen.<br>
+          🪟 Halten Sie Fenster und Balkontüren bei Nichtgebrauch geschlossen.
+        </div>
+        <div class="lang-content" data-lang="fr">
+          🔐 Verrouillez toujours la porte en partant.<br>
+          🪟 Gardez les fenêtres et les portes du balcon fermées lorsqu'elles ne sont pas utilisées.
+        </div>
+        <div class="lang-content" data-lang="sk">
+          🔐 Vždy zamknite dvere pri odchode.<br>
+          🪟 Keď nepoužívate okná a balkónové dvere, majte ich zatvorené.
+        </div>
+      </div>
+
+    
+    </div>
+    
+    <!-- 🌞 Sicilian Summer Note – Enhanced Advisory -->
+<div class="summer-note-card">
+  <div class="summer-note-icon">
+    <i class="fas fa-sun"></i>
+    <i class="fas fa-bug"></i>
+  </div>
+  <div class="summer-note-content">
+    <h3 class="lang-content active" data-lang="en">🌿 A Little Sicilian Summer Note</h3>
+    <h3 class="lang-content" data-lang="it">🌿 Una Piccola Nota sull'Estate Siciliana</h3>
+    <h3 class="lang-content" data-lang="de">🌿 Eine kleine Notiz zum sizilianischen Sommer</h3>
+    <h3 class="lang-content" data-lang="fr">🌿 Une petite note sur l'été sicilien</h3>
+    <h3 class="lang-content" data-lang="sk">🌿 Malá poznámka o sicílskom lete</h3>
+    
+    <div class="lang-content active" data-lang="en">
+      <p>Sicilian summers are beautiful — and the bugs think so too 😊</p>
+      <p>🐝 Please keep the <strong>balcony door closed</strong> whenever possible.<br>
+      🪟 If you need fresh air in the living room, <strong>close the green shutters</strong> – the mosquito net is there to protect you.</p>
+      <p><i class="fas fa-leaf"></i> Enjoy the sea breeze safely!</p>
+    </div>
+    <div class="lang-content" data-lang="it">
+      <p>Le estati siciliane sono bellissime — e anche gli insetti la pensano così 😊</p>
+      <p>🐝 Tieni la <strong>porta del balcone chiusa</strong> il più possibile.<br>
+      🪟 Se hai bisogno di aria fresca in soggiorno, <strong>chiudi le persiane verdi</strong> – la zanzariera è lì per proteggerti.</p>
+      <p><i class="fas fa-leaf"></i> Goditi la brezza marina in sicurezza!</p>
+    </div>
+    <div class="lang-content" data-lang="de">
+      <p>Die sizilianischen Sommer sind wunderschön – und das denken die Insekten auch 😊</p>
+      <p>🐝 Bitte halten Sie die <strong>Balkontür geschlossen</strong>, wann immer möglich.<br>
+      🪟 Wenn Sie frische Luft im Wohnzimmer benötigen, <strong>schließen Sie die grünen Fensterläden</strong> – das Moskitonetz schützt Sie.</p>
+      <p><i class="fas fa-leaf"></i> Genießen Sie die Meeresbrise sicher!</p>
+    </div>
+    <div class="lang-content" data-lang="fr">
+      <p>Les étés siciliens sont magnifiques – et les insectes aussi 😊</p>
+      <p>🐝 Veuillez garder la <strong>porte du balcon fermée</strong> autant que possible.<br>
+      🪟 Si vous avez besoin d'air frais dans le salon, <strong>fermez les volets verts</strong> – la moustiquaire est là pour vous protéger.</p>
+      <p><i class="fas fa-leaf"></i> Profitez de la brise marine en toute sécurité !</p>
+    </div>
+    <div class="lang-content" data-lang="sk">
+      <p>Sicílske letá sú nádherné – a rovnako si to myslia aj chrobáky 😊</p>
+      <p>🐝 Udržiavajte <strong>balkónové dvere zatvorené</strong> vždy, keď je to možné.<br>
+      🪟 Ak potrebujete čerstvý vzduch v obývačke, <strong>zatvorte zelené okenice</strong> – sieťka proti hmyzu vás ochráni.</p>
+      <p><i class="fas fa-leaf"></i> Užite si morský vánok bezpečne!</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+
+
+
+
+
+  <!-- CHECKOUT (fully translated) -->
+<div class="chapter-card" id="checkout">
+  <div class="chapter-header">
+    <div class="chapter-icon">⏰</div>
+    <div class="chapter-title lang-content active" data-lang="en">Check-out</div>
+    <div class="chapter-title lang-content" data-lang="it">Check-out</div>
+    <div class="chapter-title lang-content" data-lang="de">Abreise</div>
+    <div class="chapter-title lang-content" data-lang="fr">Départ</div>
+    <div class="chapter-title lang-content" data-lang="sk">Odhlásenie</div>
+  </div>
+  <div class="chapter-body">
+    <!-- Alert: check-out time -->
+    <div class="alert-modern alert-warning">
+      <i class="fas fa-hourglass-end"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">⏰ Check-out by 10:00 AM</strong>
+        <strong class="lang-content" data-lang="it">⏰ Check-out entro le 10:00</strong>
+        <strong class="lang-content" data-lang="de">⏰ Abreise bis 10:00 Uhr</strong>
+        <strong class="lang-content" data-lang="fr">⏰ Départ avant 10h00</strong>
+        <strong class="lang-content" data-lang="sk">⏰ Odhlásenie do 10:00</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Late check-out may be possible — please let us know in advance.</span>
+        <span class="lang-content" data-lang="it">Check-out tardivo possibile — si prega di avvisarci in anticipo.</span>
+        <span class="lang-content" data-lang="de">Spätere Abreise ist möglich — bitte teilen Sie uns dies rechtzeitig mit.</span>
+        <span class="lang-content" data-lang="fr">Un départ tardif est possible — veuillez nous prévenir à l'avance.</span>
+        <span class="lang-content" data-lang="sk">Neskoršie odhlásenie je možné — dajte nám vedieť vopred.</span>
+      </div>
+    </div>
+
+    <!-- Checklist (using step-list with checkmark style) -->
+    <ul class="step-list" style="list-style: none; padding-left: 0;">
+      <li class="step-item-plain" style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>✅</span>
+        <span class="lang-content active" data-lang="en">Close all windows and shutters</span>
+        <span class="lang-content" data-lang="it">Chiudere tutte le finestre e le persiane</span>
+        <span class="lang-content" data-lang="de">Alle Fenster und Fensterläden schließen</span>
+        <span class="lang-content" data-lang="fr">Fermer toutes les fenêtres et volets</span>
+        <span class="lang-content" data-lang="sk">Zatvorte všetky okná a okenice</span>
+      </li>
+      <li class="step-item-plain" style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>✅</span>
+        <span class="lang-content active" data-lang="en">Turn off all lights and appliances</span>
+        <span class="lang-content" data-lang="it">Spegnere tutte le luci e gli elettrodomestici</span>
+        <span class="lang-content" data-lang="de">Alle Lichter und Geräte ausschalten</span>
+        <span class="lang-content" data-lang="fr">Éteindre toutes les lumières et appareils</span>
+        <span class="lang-content" data-lang="sk">Vypnite všetky svetlá a spotrebiče</span>
+      </li>
+      <li class="step-item-plain" style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>✅</span>
+        <span class="lang-content active" data-lang="en">Report any accidental damage — we appreciate your honesty</span>
+        <span class="lang-content" data-lang="it">Segnalare eventuali danni accidentali — apprezziamo la vostra onestà</span>
+        <span class="lang-content" data-lang="de">Eventuelle Schäden melden — wir schätzen Ihre Ehrlichkeit</span>
+        <span class="lang-content" data-lang="fr">Signaler tout dommage accidentel — nous apprécions votre honnêteté</span>
+        <span class="lang-content" data-lang="sk">Nahláste akékoľvek náhodné poškodenie — oceňujeme vašu čestnosť</span>
+      </li>
+      <li class="step-item-plain" style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>✅</span>
+        <span class="lang-content active" data-lang="en">Check for personal belongings in all rooms and drawers</span>
+        <span class="lang-content" data-lang="it">Controllare di non aver dimenticato effetti personali in tutte le stanze e cassetti</span>
+        <span class="lang-content" data-lang="de">Alle Zimmer und Schubladen auf persönliche Gegenstände prüfen</span>
+        <span class="lang-content" data-lang="fr">Vérifier ses effets personnels dans toutes les pièces et tiroirs</span>
+        <span class="lang-content" data-lang="sk">Skontrolujte osobné veci vo všetkých miestnostiach a zásuvkách</span>
+      </li>
+      <li class="step-item-plain" style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>✅</span>
+        <span class="lang-content active" data-lang="en">Leave dirty towels and beach essentials in the shower tray</span>
+        <span class="lang-content" data-lang="it">Lasciare asciugamani usati e accessori spiaggia nel vassoio della doccia</span>
+        <span class="lang-content" data-lang="de">Benutzte Handtücher und Strandsachen im Duschbereich lassen</span>
+        <span class="lang-content" data-lang="fr">Laisser les serviettes sales et accessoires de plage dans le bac de douche</span>
+        <span class="lang-content" data-lang="sk">Nechajte použité uteráky a plážové veci v sprchovej vani</span>
+      </li>
+      <li class="step-item-plain" style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>✅</span>
+        <span class="lang-content active" data-lang="en">Place the house key on the TV stand, on the white key tray</span>
+        <span class="lang-content" data-lang="it">Lasciare la chiave di casa sul supporto TV, sul vassoio bianco</span>
+        <span class="lang-content" data-lang="de">Hausschlüssel auf dem TV-Schrank im weißen Schlüsselbrett ablegen</span>
+        <span class="lang-content" data-lang="fr">Déposer la clé de la maison sur le support TV, sur le plateau blanc</span>
+        <span class="lang-content" data-lang="sk">Položte kľúč od domu na stojan TV na biely podnos</span>
+      </li>
+      <li class="step-item-plain" style="display: flex; align-items: center; gap: 0.5rem;">
+        <span>✅</span>
+        <span class="lang-content active" data-lang="en">Notify us of your departure via message</span>
+        <span class="lang-content" data-lang="it">Avvisarci della partenza via messaggio</span>
+        <span class="lang-content" data-lang="de">Uns per Nachricht über Ihre Abreise informieren</span>
+        <span class="lang-content" data-lang="fr">Nous informer de votre départ par message</span>
+        <span class="lang-content" data-lang="sk">Informujte nás o svojom odchode správou</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- SAFETY & EMERGENCY (fully translated) -->
+<div class="chapter-card" id="safety">
+  <div class="chapter-header">
+    <div class="chapter-icon">🛡️</div>
+    <div class="chapter-title lang-content active" data-lang="en">Safety & Emergency</div>
+    <div class="chapter-title lang-content" data-lang="it">Sicurezza & Emergenza</div>
+    <div class="chapter-title lang-content" data-lang="de">Sicherheit & Notfall</div>
+    <div class="chapter-title lang-content" data-lang="fr">Sécurité & Urgence</div>
+    <div class="chapter-title lang-content" data-lang="sk">Bezpečnosť & Núdza</div>
+  </div>
+  <div class="chapter-body">
+    <!-- Emergency contact numbers -->
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-number">112</div>
+        <div class="lang-content active" data-lang="en">General Emergency</div>
+        <div class="lang-content" data-lang="it">Emergenza Generale</div>
+        <div class="lang-content" data-lang="de">Allgemeiner Notfall</div>
+        <div class="lang-content" data-lang="fr">Urgence Générale</div>
+        <div class="lang-content" data-lang="sk">Všeobecná Núdzová Linka</div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-number">118</div>
+        <div class="lang-content active" data-lang="en">Medical Emergency</div>
+        <div class="lang-content" data-lang="it">Emergenza Medica</div>
+        <div class="lang-content" data-lang="de">Medizinischer Notfall</div>
+        <div class="lang-content" data-lang="fr">Urgence Médicale</div>
+        <div class="lang-content" data-lang="sk">Lekárska Núdza</div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-number">113</div>
+        <div class="lang-content active" data-lang="en">Police</div>
+        <div class="lang-content" data-lang="it">Polizia</div>
+        <div class="lang-content" data-lang="de">Polizei</div>
+        <div class="lang-content" data-lang="fr">Police</div>
+        <div class="lang-content" data-lang="sk">Polícia</div>
+      </div>
+      <div class="contact-card">
+        <div class="contact-number">115</div>
+        <div class="lang-content active" data-lang="en">Fire Brigade</div>
+        <div class="lang-content" data-lang="it">Vigili del Fuoco</div>
+        <div class="lang-content" data-lang="de">Feuerwehr</div>
+        <div class="lang-content" data-lang="fr">Pompiers</div>
+        <div class="lang-content" data-lang="sk">Hasiči</div>
+      </div>
+    </div>
+
+    <!-- Nearest medical service -->
+    <div class="alert-modern alert-success">
+      <i class="fas fa-hospital-user"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">Nearest medical service (4‑min walk): Guardia Medica</strong>
+        <strong class="lang-content" data-lang="it">Servizio medico più vicino (4 minuti a piedi): Guardia Medica</strong>
+        <strong class="lang-content" data-lang="de">Nächster medizinischer Dienst (4 Gehminuten): Guardia Medica</strong>
+        <strong class="lang-content" data-lang="fr">Service médical le plus proche (4 min à pied) : Guardia Medica</strong>
+        <strong class="lang-content" data-lang="sk">Najbližšia lekárska služba (4 minúty chôdze): Guardia Medica</strong>
+        <br>Via Lorenzo Iandolino, 12 · 90151 Palermo
+      </div>
+    </div>
+
+    <!-- No Gas Supply -->
+    <div class="alert-modern alert-info">
+      <i class="fas fa-gas-pump"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">✅ No Gas Supply — safe and worry‑free environment.</strong>
+        <strong class="lang-content" data-lang="it">✅ Nessuna fornitura di gas — ambiente sicuro e senza preoccupazioni.</strong>
+        <strong class="lang-content" data-lang="de">✅ Keine Gasversorgung — sichere und sorgenfreie Umgebung.</strong>
+        <strong class="lang-content" data-lang="fr">✅ Pas d'alimentation en gaz — environnement sûr et sans souci.</strong>
+        <strong class="lang-content" data-lang="sk">✅ Žiadny prívod plynu — bezpečné a bezstarostné prostredie.</strong>
+      </div>
+    </div>
+
+    <!-- Sicilian Summer Advisory -->
+    <div class="alert-modern alert-warning">
+      <i class="fas fa-sun"></i>
+      <div>
+        <strong class="lang-content active" data-lang="en">🌞 Sicilian Summer Advisory</strong>
+        <strong class="lang-content" data-lang="it">🌞 Avvertenza per l'Estate Siciliana</strong>
+        <strong class="lang-content" data-lang="de">🌞 Hinweis zum sizilianischen Sommer</strong>
+        <strong class="lang-content" data-lang="fr">🌞 Avertissement pour l'été sicilien</strong>
+        <strong class="lang-content" data-lang="sk">🌞 Upozornenie na sicílske leto</strong>
+        <br>
+        <span class="lang-content active" data-lang="en">Keep balcony door closed when not in use. Shutters have protective mesh to prevent insects.</span>
+        <span class="lang-content" data-lang="it">Tieni la porta del balcone chiusa quando non in uso. Le persiane hanno una rete protettiva per prevenire gli insetti.</span>
+        <span class="lang-content" data-lang="de">Halten Sie die Balkontür bei Nichtgebrauch geschlossen. Die Fensterläden haben ein Schutzgitter, um Insekten zu verhindern.</span>
+        <span class="lang-content" data-lang="fr">Gardez la porte du balcon fermée lorsqu'elle n'est pas utilisée. Les volets sont équipés d'un filet protecteur pour éviter les insectes.</span>
+        <span class="lang-content" data-lang="sk">Balkónové dvere udržiavajte zatvorené, keď sa nepoužívajú. Okenice majú ochrannú sieťku proti hmyzu.</span>
+      </div>
+    </div>
+
+    <!-- Apartment Assistance -->
+    <div class="info-card">
+      <i class="fas fa-question-circle"></i>
+      <h3 class="lang-content active" data-lang="en">Apartment Assistance</h3>
+      <h3 class="lang-content" data-lang="it">Assistenza per l'Appartamento</h3>
+      <h3 class="lang-content" data-lang="de">Unterstützung für die Wohnung</h3>
+      <h3 class="lang-content" data-lang="fr">Assistance pour l'Appartement</h3>
+      <h3 class="lang-content" data-lang="sk">Pomoc s Apartmánom</h3>
+      <div class="lang-content active" data-lang="en">
+        <p>Contact us directly for any apartment issue. We respond promptly.</p>
+      </div>
+      <div class="lang-content" data-lang="it">
+        <p>Contattaci direttamente per qualsiasi problema relativo all'appartamento. Rispondiamo prontamente.</p>
+      </div>
+      <div class="lang-content" data-lang="de">
+        <p>Kontaktieren Sie uns direkt bei Problemen mit der Wohnung. Wir antworten schnell.</p>
+      </div>
+      <div class="lang-content" data-lang="fr">
+        <p>Contactez-nous directement pour tout problème lié à l'appartement. Nous répondons rapidement.</p>
+      </div>
+      <div class="lang-content" data-lang="sk">
+        <p>Pri akomkoľvek probléme s apartmánom nás kontaktujte priamo. Rýchlo odpovieme.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+</main>
+
+<footer class="footer">
+  <div style="font-family:'Playfair Display'; font-size:1.8rem;"> Vitamin Sea Mondello Beach</div>
+  <p><i class="fas fa-map-pin"></i> Viale Regina Elena · Mondello Beach · Palermo, Sicily</p>
+ <p class="lang-content active" data-lang="en">🌊 <em>Dolce far niente</em> – the sweet art of doing nothing</p>
+<p class="lang-content" data-lang="it">🌊 <em>Dolce far niente</em> – la dolce arte di non fare nulla</p>
+<p class="lang-content" data-lang="de">🌊 <em>Dolce far niente</em> – die süße Kunst des Nichtstuns</p>
+<p class="lang-content" data-lang="fr">🌊 <em>Dolce far niente</em> – le doux art de ne rien faire</p>
+<p class="lang-content" data-lang="sk">🌊 <em>Dolce far niente</em> – sladké umenie ničnerobenia</p>
+  <p class="lang-content active" data-lang="en">We wish you a wonderful holiday in Sicily!</p>
+<p class="lang-content" data-lang="it">Ti auguriamo una meravigliosa vacanza in Sicilia!</p>
+<p class="lang-content" data-lang="de">Wir wünschen Ihnen einen wunderschönen Urlaub auf Sizilien!</p>
+<p class="lang-content" data-lang="fr">Nous vous souhaitons de merveilleuses vacances en Sicile !</p>
+<p class="lang-content" data-lang="sk">Prajeme vám nádhernú dovolenku na Sicílii!</p>
+</footer>
+
+<button class="print-btn" onclick="window.print()"><i class="fas fa-print"></i> Print / PDF</button>
+<div class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></div>
+<script src="script.js"></script>
+
+</body>
+</html>
