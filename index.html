@@ -14,7 +14,7 @@
 <body>
 <div class="sticky-nav">
   <div class="nav-container">
-    <div class="nav-logo"><i class="fas fa-water"></i> Vitamin Sea</div>
+    <div class="nav-logo"><img src="logo.jpg" alt="Mondello Beach Vitamin Sea Logo" class="nav-logo-img">  Mondello Beach Vitamin Sea</div>
     <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
     <div class="nav-controls">
       <div class="lang-switcher">
@@ -123,8 +123,6 @@
 
 <section class="hero">
   <div class="hero-content">
-    <!-- Logo -->
-    <img src="logo.jpg" alt="Mondello Beach Vitamin Sea Logo" class="hero-logo">
     
     <!-- Location badge -->
     <div class="hero-badge">
@@ -238,6 +236,7 @@
     <div class="chapter-title lang-content" data-lang="fr">Informations Essentielles</div>
     <div class="chapter-title lang-content" data-lang="sk">Dôležité Informácie</div>
   </div>
+  
   <div class="chapter-body">
     <!-- Apartment Address Alert -->
     <div class="alert-modern alert-warning">
@@ -364,7 +363,7 @@
 <span class="lang-content" data-lang="sk">Sicílske letá sú nádherné – a rovnako si to myslia aj chrobáky 😊 Balkónové dvere udržiavajte zatvorené vždy, keď je to možné. Ak potrebujete čerstvý vzduch v obývačke, môžete zatvoriť zelené okenice – sieťka proti hmyzu je tu, aby vás chránila.</span>
   </div>
   </div>
-  
+    </div>
 
 </div>
   
@@ -593,9 +592,9 @@
   </div>
 </div>
     
-    <!-- Image 4: ps7.png – Turn BLACK tap to the RIGHT -->
+    <!-- Image 4: ps11.png – Turn BLACK tap to the RIGHT -->
     <div class="step-gallery-item">
-      <img src="ps7.png" alt="Step 4" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+4'">
+      <img src="ps11.png" alt="Step 4" onerror="this.src='https://placehold.co/300x200/3498db/white?text=Step+4'">
       <div class="step-gallery-caption">
         <span class="step-num">④</span>
         <span class="lang-content active" data-lang="en">Turn BLACK tap → to the RIGHT</span>
@@ -2050,7 +2049,6 @@
     </div>
 
     <!-- Nearest medical service -->
-        <!-- Nearest medical service -->
     <div class="alert-modern alert-success">
       <i class="fas fa-hospital-user"></i>
       <div>
@@ -2080,7 +2078,6 @@
         </div>
       </div>
     </div>
-
     <!-- No Gas Supply -->
     <div class="alert-modern alert-info">
       <i class="fas fa-gas-pump"></i>
@@ -2145,21 +2142,67 @@
 </main>
 
 <footer class="footer">
-  <div style="font-family:'Playfair Display'; font-size:1.8rem;"> Vitamin Sea Mondello Beach</div>
-  <p><i class="fas fa-map-pin"></i> Viale Regina Elena · Mondello Beach · Palermo, Sicily</p>
- <p class="lang-content active" data-lang="en">🌊 <em>Dolce far niente</em> – the sweet art of doing nothing</p>
-<p class="lang-content" data-lang="it">🌊 <em>Dolce far niente</em> – la dolce arte di non fare nulla</p>
-<p class="lang-content" data-lang="de">🌊 <em>Dolce far niente</em> – die süße Kunst des Nichtstuns</p>
-<p class="lang-content" data-lang="fr">🌊 <em>Dolce far niente</em> – le doux art de ne rien faire</p>
-<p class="lang-content" data-lang="sk">🌊 <em>Dolce far niente</em> – sladké umenie ničnerobenia</p>
-  <p class="lang-content active" data-lang="en">We wish you a wonderful holiday in Sicily!</p>
-<p class="lang-content" data-lang="it">Ti auguriamo una meravigliosa vacanza in Sicilia!</p>
-<p class="lang-content" data-lang="de">Wir wünschen Ihnen einen wunderschönen Urlaub auf Sizilien!</p>
-<p class="lang-content" data-lang="fr">Nous vous souhaitons de merveilleuses vacances en Sicile !</p>
-<p class="lang-content" data-lang="sk">Prajeme vám nádhernú dovolenku na Sicílii!</p>
+  <!-- Decorative wave at the top — blends into the page background -->
+  <div class="footer-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+      <path fill="var(--bg-page)" d="M0,0 L1440,0 L1440,30 C1200,55 960,10 720,28 C480,46 240,15 0,35 Z"></path>
+    </svg>
+  </div>
+
+  <div class="footer-inner">
+    <!-- Quote -->
+    <p class="lang-content active footer-quote" data-lang="en">
+      <em>Dolce far niente</em> — the sweet art of doing nothing
+    </p>
+    <p class="lang-content footer-quote" data-lang="it">
+      <em>Dolce far niente</em> — la dolce arte di non fare nulla
+    </p>
+    <p class="lang-content footer-quote" data-lang="de">
+      <em>Dolce far niente</em> — die süße Kunst des Nichtstuns
+    </p>
+    <p class="lang-content footer-quote" data-lang="fr">
+      <em>Dolce far niente</em> — le doux art de ne rien faire
+    </p>
+    <p class="lang-content footer-quote" data-lang="sk">
+      <em>Dolce far niente</em> — sladké umenie ničnerobenia
+    </p>
+
+    <!-- Ornament divider -->
+    <div class="footer-ornament" aria-hidden="true">
+      <span class="footer-ornament-line"></span>
+      <i class="fas fa-water footer-ornament-icon"></i>
+      <span class="footer-ornament-line"></span>
+    </div>
+
+    <!-- Brand + address -->
+    <div class="footer-bottom">
+      <div class="footer-brand">Mondello Beach Vitamin Sea</div>
+      <span class="footer-separator"></span>
+      <p class="footer-address">
+        <i class="fas fa-map-pin"></i>
+         Mondello Beach · Palermo, Sicily
+      </p>
+    </div>
+
+    <!-- Closing message -->
+    <p class="lang-content active footer-message" data-lang="en">
+      We wish you a wonderful holiday in Sicily!
+    </p>
+    <p class="lang-content footer-message" data-lang="it">
+      Ti auguriamo una meravigliosa vacanza in Sicilia!
+    </p>
+    <p class="lang-content footer-message" data-lang="de">
+      Wir wünschen Ihnen einen wunderschönen Urlaub auf Sizilien!
+    </p>
+    <p class="lang-content footer-message" data-lang="fr">
+      Nous vous souhaitons de merveilleuses vacances en Sicile !
+    </p>
+    <p class="lang-content footer-message" data-lang="sk">
+      Prajeme vám nádhernú dovolenku na Sicílii!
+    </p>
+  </div>
 </footer>
-
-
+<button class="print-btn" onclick="window.print()"><i class="fas fa-print"></i> Print / PDF</button>
 <div class="scroll-top" id="scrollTop"><i class="fas fa-arrow-up"></i></div>
 <script src="script.js"></script>
 
